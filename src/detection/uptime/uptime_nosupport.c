@@ -14,11 +14,14 @@ const char* ffDetectUptime(FFUptimeResult* result)
     if (sysctl((int[]){CTL_KERN, KERN_BOOTTIME}, 2, &boottime, &size, NULL, 0) != 0 || boottime.tv_sec == 0)
         return "sysctl kern.boottime failed";
 
-    time_t now = time(NULL);
-    if (now == (time_t)-1)
-        return "time() failed";
+    struct timeval now = {};
+    if (gettimeofday(&now, NULL) != 0)
+        return "gettimeofday() failed";
 
-    result->bootTime = (uint64_t)boottime.tv_sec;
-    result->uptime = (uint64_t)((now > boottime.tv_sec) ? (now - boottime.tv_sec) : 0);
+    result->bootTime = (uint64_t) boottime.tv_sec;
+
+    uint64_t nowMs = (uint64_t) now.tv_sec * 1000 + (uint64_t) now.tv_usec / 1000;
+    uint64_t bootMs = (uint64_t) boottime.tv_sec * 1000 + (uint64_t) boottime.tv_usec / 1000;
+    result->uptime = nowMs > bootMs ? nowMs - bootMs : 0;
     return NULL;
 }
