@@ -1,10 +1,19 @@
 #include "cpu.h"
 #include "common/sysctl.h"
-#include "util/apple/smc_temps.h"
 #include "util/stringUtils.h"
+
+#include <TargetConditionals.h>
+
+#if !(defined(TARGET_OS_IPHONE) && TARGET_OS_IPHONE)
+#include "util/apple/smc_temps.h"
+#endif
 
 static double detectCpuTemp(const FFstrbuf* cpuName)
 {
+#if defined(TARGET_OS_IPHONE) && TARGET_OS_IPHONE
+    FF_UNUSED(cpuName);
+    return FF_CPU_TEMP_UNSET;
+#else
     double result = 0;
 
     const char* error = NULL;
@@ -26,9 +35,10 @@ static double detectCpuTemp(const FFstrbuf* cpuName)
         return FF_CPU_TEMP_UNSET;
 
     return result;
+#endif
 }
 
-#ifdef __aarch64__
+#if defined(__aarch64__) && (!defined(TARGET_OS_IPHONE) || !TARGET_OS_IPHONE)
 #include "util/apple/cf_helpers.h"
 
 #include <IOKit/IOKitLib.h>

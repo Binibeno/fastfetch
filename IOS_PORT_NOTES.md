@@ -80,3 +80,15 @@ sshfs mobile@iphone-8:/ /home/fasz32/iphonefs -o reconnect,ServerAliveInterval=1
 
 ---
 Feel free to expand this file with future findings so you (or someone else) can pick up the iOS port later.
+
+## 2025-10-25 updates
+- Enabled Apple logo for iOS by aliasing `ios`/`iPhone` names to the existing Apple builtin logo.
+- Implemented iOS-aware OS detection: parses `/System/Library/CoreServices/SystemVersion.plist` and fills prettyName/build/version/idLike=darwin.
+- Restored Host detection via `hw.machine`/`hw.model`.
+- Restored uptime using `kern.boottime`.
+- Added CPU detection based on `cpu_apple.c` with iOS guards (sysctl fallback, no SMC temp).
+- Re-enabled memory and disk modules using mac/bsd detectors.
+- Reworked shell/terminal detection to leverage `SHELL`, `TERM(_PROGRAM)` and `ttyname`.
+- Re-enabled package counting using Linux/Nix detectors (dpkg support) — counts dpkg packages on device.
+- Added iOS stubs for OpenCL/OpenGL/Vulkan to satisfy GPU module link dependencies.
+- Remember to `ldid -Sfastfetch.entitlements fastfetch flashfetch` after each rebuild.

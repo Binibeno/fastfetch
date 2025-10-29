@@ -5569,7 +5569,7 @@ CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu.c.o: /var/mobile/fastfetch/src
   /var/mobile/fastfetch/src/util/platform/FFPlatform.h \
   /var/mobile/fastfetch/src/util/unused.h
 
-CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.o: /var/mobile/fastfetch/src/detection/cpu/cpu_nosupport.c \
+CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.o: /var/mobile/fastfetch/src/detection/cpu/cpu_apple.c \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/__stddef_max_align_t.h \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/float.h \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/limits.h \
@@ -5580,7 +5580,9 @@ CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.o: /var/mobile/fas
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/Availability.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityInternal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityVersions.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/TargetConditionals.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctermid.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctype.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_intmax_t.h \
@@ -5592,26 +5594,38 @@ CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.o: /var/mobile/fas
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/alloca.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_limits.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_mcontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/arch.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/endian.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/assert.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/bsm/audit.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/ctype.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/float.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/_OSByteOrder.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/limits.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/boolean.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/vm_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/boolean.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/boolean.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/vm_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/port.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_mcontext.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/endian.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/malloc/_malloc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/runetype.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_common.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_string.h \
@@ -5624,19 +5638,50 @@ CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.o: /var/mobile/fas
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_endian.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_posix_availability.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_select.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_symbol_aliasing.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blkcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blksize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_caddr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_clock_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_dev_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_errno_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_clr.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_copy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_def.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_isset.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_set.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_zero.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_gid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_id_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_in_addr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_in_port_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int16_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int32_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int64_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int8_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_intptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_key_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mach_port_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mode_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_nlink_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_null.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_off_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_pid_t.h \
@@ -5646,28 +5691,50 @@ CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.o: /var/mobile/fas
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigset_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_size_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ssize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_time_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timespec.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval64.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_char.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int16_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int32_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int64_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_short.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ucontext.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_useconds_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_va_list.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wchar_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wint_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/appleapiopts.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/cdefs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/event.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/lock.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/param.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/proc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/queue.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/resource.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/select.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/sysctl.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/syslimits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/time.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/ucred.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/vm.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/wait.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/time.h \
   fastfetch_config.h \
   /var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.h \
   /var/mobile/fastfetch/src/common/option.h \
   /var/mobile/fastfetch/src/common/parsing.h \
   /var/mobile/fastfetch/src/common/percent.h \
+  /var/mobile/fastfetch/src/common/sysctl.h \
   /var/mobile/fastfetch/src/detection/cpu/cpu.h \
   /var/mobile/fastfetch/src/fastfetch.h \
   /var/mobile/fastfetch/src/modules/cpu/option.h \
@@ -5679,6 +5746,7 @@ CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.o: /var/mobile/fas
   /var/mobile/fastfetch/src/util/FFstrbuf.h \
   /var/mobile/fastfetch/src/util/arrayUtils.h \
   /var/mobile/fastfetch/src/util/platform/FFPlatform.h \
+  /var/mobile/fastfetch/src/util/stringUtils.h \
   /var/mobile/fastfetch/src/util/unused.h
 
 CMakeFiles/libfastfetch.dir/src/detection/cpucache/cpucache_nosupport.c.o: /var/mobile/fastfetch/src/detection/cpucache/cpucache_nosupport.c \
@@ -6358,18 +6426,79 @@ CMakeFiles/libfastfetch.dir/src/detection/disk/disk.c.o: /var/mobile/fastfetch/s
   /var/mobile/fastfetch/src/util/platform/FFPlatform.h \
   /var/mobile/fastfetch/src/util/unused.h
 
-CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.o: /var/mobile/fastfetch/src/detection/disk/disk_nosupport.c \
+CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.o: /var/mobile/fastfetch/src/detection/disk/disk_bsd.c \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/__stddef_max_align_t.h \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/float.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/inttypes.h \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/limits.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/ptrauth.h \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/stdarg.h \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/stdbool.h \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/stddef.h \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/stdint.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAttributedString.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBag.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBinaryHeap.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBitVector.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBundle.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFByteOrder.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFCGTypes.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFCalendar.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFCharacterSet.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFData.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDate.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDateFormatter.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDictionary.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFError.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFFileDescriptor.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFFileSecurity.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFLocale.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFMachPort.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFMessagePort.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNotificationCenter.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumberFormatter.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPlugIn.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPreferences.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPropertyList.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFRunLoop.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFSet.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFSocket.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStringEncodingExt.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStringTokenizer.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFTimeZone.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFTree.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURL.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURLAccess.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURLEnumerator.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFUUID.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFUserNotification.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFUtilities.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFXMLNode.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFXMLParser.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitKeys.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOMapTypes.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOReturn.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOTypes.h \
+  /usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework/Headers/OSMessageNotification.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/Availability.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityInternal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityMacros.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityVersions.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/Block.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/ConditionalMacros.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/MacTypes.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/TargetConditionals.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctermid.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctype.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_locale.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_intmax_t.h \
@@ -6381,30 +6510,126 @@ CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.o: /var/mobile/f
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/alloca.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_limits.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_mcontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/arch.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/endian.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/assert.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/bsm/audit.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/ctype.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/device/device_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/base.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/block.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/data.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/dispatch.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/group.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/io.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/object.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/once.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/queue.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/semaphore.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/source.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/time.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/workloop.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/errno.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/fcntl.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/float.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/gethostuuid.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/inttypes.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/OSByteOrder.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/OSTypes.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/_OSByteOrder.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/locale.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/boolean.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/exception.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/kern_return.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/processor_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/thread_state.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/thread_status.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/vm_param.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/vm_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/boolean.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/clock_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/dyld_kernel.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/error.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/exception_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_notify.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_special_ports.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/kern_return.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/kmod.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_init.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_traps.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_voucher_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/boolean.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/exception.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/kern_return.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/processor_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/thread_state.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/thread_status.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/vm_param.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/vm_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/memory_object_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/message.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/policy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/port.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/processor_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/std_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task_inspect.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task_policy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task_special_ports.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_policy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_special_ports.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_status.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/time_value.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_attributes.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_behavior.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_inherit.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_page_size.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_prot.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_purgable.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_region.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_statistics.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_sync.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/ipc_info.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_mcontext.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/endian.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/malloc/_malloc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/math.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/os/availability.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/os/base.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/os/clock.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/os/object.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/os/workgroup.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/os/workgroup_base.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/os/workgroup_interval.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/os/workgroup_object.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/os/workgroup_parallel.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/runetype.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_common.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_string.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_strings.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/setjmp.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdint.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdlib.h \
@@ -6413,45 +6638,114 @@ CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.o: /var/mobile/f
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_endian.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_posix_availability.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_select.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_symbol_aliasing.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blkcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blksize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_caddr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_clock_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_dev_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_errno_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_clr.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_copy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_def.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_isset.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_set.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_zero.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_filesec_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsobj_id_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_gid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_graftdmg_un.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_guid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_id_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_in_addr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_in_port_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int16_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int32_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int64_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int8_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_intptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_key_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mach_port_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mode_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_nlink_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_null.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_o_dsync.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_o_sync.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_off_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_os_inline.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_pid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_posix_vdisable.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rsize_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rune_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_s_ifmt.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_seek_set.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigaltstack.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigset_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_size_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ssize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_time_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timespec.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval64.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_char.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int16_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int32_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int64_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_short.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ucontext.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_useconds_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uuid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_va_list.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wchar_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wint_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/acl.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/appleapiopts.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/attr.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/cdefs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/errno.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/fcntl.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/kauth.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/mount.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/param.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/qos.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/queue.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/resource.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/select.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/signal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stat.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/syslimits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/time.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/ucred.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/unistd.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/wait.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/time.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/unistd.h \
   fastfetch_config.h \
   /var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.h \
   /var/mobile/fastfetch/src/common/option.h \
@@ -6466,8 +6760,11 @@ CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.o: /var/mobile/f
   /var/mobile/fastfetch/src/util/FFcheckmacros.h \
   /var/mobile/fastfetch/src/util/FFlist.h \
   /var/mobile/fastfetch/src/util/FFstrbuf.h \
+  /var/mobile/fastfetch/src/util/apple/cf_helpers.h \
   /var/mobile/fastfetch/src/util/arrayUtils.h \
+  /var/mobile/fastfetch/src/util/mallocHelper.h \
   /var/mobile/fastfetch/src/util/platform/FFPlatform.h \
+  /var/mobile/fastfetch/src/util/stringUtils.h \
   /var/mobile/fastfetch/src/util/unused.h
 
 CMakeFiles/libfastfetch.dir/src/detection/diskio/diskio.c.o: /var/mobile/fastfetch/src/detection/diskio/diskio.c \
@@ -7882,6 +8179,7 @@ CMakeFiles/libfastfetch.dir/src/detection/host/host_nosupport.c.o: /var/mobile/f
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityInternal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityVersions.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctermid.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctype.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_intmax_t.h \
@@ -7893,26 +8191,38 @@ CMakeFiles/libfastfetch.dir/src/detection/host/host_nosupport.c.o: /var/mobile/f
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/alloca.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_limits.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_mcontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/arch.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/endian.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/assert.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/bsm/audit.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/ctype.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/float.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/_OSByteOrder.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/limits.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/boolean.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/vm_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/boolean.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/boolean.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/vm_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/port.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_mcontext.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/endian.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/malloc/_malloc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/runetype.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_common.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_string.h \
@@ -7925,19 +8235,50 @@ CMakeFiles/libfastfetch.dir/src/detection/host/host_nosupport.c.o: /var/mobile/f
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_endian.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_posix_availability.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_select.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_symbol_aliasing.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blkcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blksize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_caddr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_clock_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_dev_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_errno_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_clr.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_copy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_def.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_isset.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_set.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_zero.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_gid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_id_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_in_addr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_in_port_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int16_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int32_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int64_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int8_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_intptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_key_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mach_port_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mode_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_nlink_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_null.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_off_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_pid_t.h \
@@ -7947,23 +8288,44 @@ CMakeFiles/libfastfetch.dir/src/detection/host/host_nosupport.c.o: /var/mobile/f
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigset_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_size_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ssize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_time_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timespec.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval64.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_char.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int16_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int32_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int64_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_short.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ucontext.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_useconds_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_va_list.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wchar_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wint_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/appleapiopts.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/cdefs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/event.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/lock.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/param.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/proc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/queue.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/resource.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/select.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/sysctl.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/syslimits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/time.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/ucred.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/vm.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/wait.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/time.h \
   fastfetch_config.h \
   /var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.h \
   /var/mobile/fastfetch/src/common/option.h \
@@ -7980,6 +8342,7 @@ CMakeFiles/libfastfetch.dir/src/detection/host/host_nosupport.c.o: /var/mobile/f
   /var/mobile/fastfetch/src/util/FFstrbuf.h \
   /var/mobile/fastfetch/src/util/arrayUtils.h \
   /var/mobile/fastfetch/src/util/platform/FFPlatform.h \
+  /var/mobile/fastfetch/src/util/stringUtils.h \
   /var/mobile/fastfetch/src/util/unused.h
 
 CMakeFiles/libfastfetch.dir/src/detection/icons/icons_nosupport.c.o: /var/mobile/fastfetch/src/detection/icons/icons_nosupport.c \
@@ -9098,7 +9461,7 @@ CMakeFiles/libfastfetch.dir/src/detection/media/media_nosupport.c.o: /var/mobile
   /var/mobile/fastfetch/src/util/platform/FFPlatform.h \
   /var/mobile/fastfetch/src/util/unused.h
 
-CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.o: /var/mobile/fastfetch/src/detection/memory/memory_nosupport.c \
+CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.o: /var/mobile/fastfetch/src/detection/memory/memory_apple.c \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/__stddef_max_align_t.h \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/float.h \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/limits.h \
@@ -9121,23 +9484,116 @@ CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.o: /var/mobi
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/alloca.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_limits.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_mcontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/arch.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/endian.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/assert.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/bsm/audit.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/float.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/gethostuuid.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/OSByteOrder.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/_OSByteOrder.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/limits.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/boolean.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/exception.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/kern_return.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/processor_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/rpc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/thread_state.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/thread_status.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/vm_param.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/vm_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/boolean.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/clock_priv.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/clock_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/dyld_kernel.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/error.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/exception_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_notify.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_priv.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_security.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_special_ports.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/kern_return.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/kmod.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_error.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_host.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_init.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_interface.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_port.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_traps.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_voucher_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/boolean.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/exception.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/kern_return.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/processor_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/rpc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/thread_state.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/thread_status.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/vm_param.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/vm_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/memory_object_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/message.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mig.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mig_errors.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mig_strncpy_zerofill_support.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/ndr.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/notify.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/policy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/port.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/processor.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/processor_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/processor_set.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/rpc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/semaphore.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/std_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/sync_policy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task_inspect.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task_policy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task_special_ports.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_act.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_policy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_special_ports.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_status.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_switch.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/time_value.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_attributes.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_behavior.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_inherit.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_map.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_page_size.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_prot.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_purgable.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_region.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_statistics.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_sync.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/hash_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/ipc_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/lockgroup_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/mach_debug_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/page_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/vm_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/zone_info.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_mcontext.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/endian.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/malloc/_malloc.h \
@@ -9153,45 +9609,103 @@ CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.o: /var/mobi
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_endian.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_posix_availability.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_select.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_symbol_aliasing.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blkcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blksize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_caddr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_clock_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_dev_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_errno_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_clr.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_copy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_def.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_isset.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_set.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_zero.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsobj_id_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_gid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_id_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_in_addr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_in_port_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int16_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int32_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int64_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int8_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_intptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_key_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mach_port_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mode_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_nlink_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_null.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_off_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_pid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_posix_vdisable.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rsize_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rune_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_seek_set.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigaltstack.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigset_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_size_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ssize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_time_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timespec.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval64.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_char.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int16_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int32_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int64_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_short.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ucontext.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_useconds_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uuid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_va_list.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wchar_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/appleapiopts.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/cdefs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/event.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/lock.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/param.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/proc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/queue.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/resource.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/select.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/sysctl.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/syslimits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/time.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/ucred.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/unistd.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/vm.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/wait.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/time.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/unistd.h \
   fastfetch_config.h \
   /var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.h \
   /var/mobile/fastfetch/src/common/option.h \
@@ -9550,6 +10064,232 @@ CMakeFiles/libfastfetch.dir/src/detection/netio/netio_nosupport.c.o: /var/mobile
   /var/mobile/fastfetch/src/util/platform/FFPlatform.h \
   /var/mobile/fastfetch/src/util/unused.h
 
+CMakeFiles/libfastfetch.dir/src/detection/opencl/opencl_ios.c.o: /var/mobile/fastfetch/src/detection/opencl/opencl_ios.c \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/__stddef_max_align_t.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/float.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/limits.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/stdarg.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/stdbool.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/stddef.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/stdint.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/Availability.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityInternal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityVersions.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctermid.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_intmax_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint16_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint32_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uintmax_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/alloca.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_mcontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/arch.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/endian.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/signal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/assert.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/float.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/_OSByteOrder.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/arm/OSByteOrder.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_mcontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/endian.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/signal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/malloc/_malloc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_common.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_string.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_strings.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdint.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdlib.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/string.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/strings.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_endian.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_posix_availability.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_symbol_aliasing.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_dev_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_errno_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_id_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int16_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int32_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_intptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mode_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_null.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_off_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_pid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rsize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rune_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigset_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_size_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ssize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ucontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_va_list.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wchar_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/appleapiopts.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/cdefs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/resource.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/signal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/syslimits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/wait.h \
+  fastfetch_config.h \
+  /var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.h \
+  /var/mobile/fastfetch/src/common/option.h \
+  /var/mobile/fastfetch/src/common/parsing.h \
+  /var/mobile/fastfetch/src/common/percent.h \
+  /var/mobile/fastfetch/src/detection/gpu/gpu.h \
+  /var/mobile/fastfetch/src/detection/opencl/opencl.h \
+  /var/mobile/fastfetch/src/fastfetch.h \
+  /var/mobile/fastfetch/src/modules/gpu/option.h \
+  /var/mobile/fastfetch/src/modules/opencl/option.h \
+  /var/mobile/fastfetch/src/options/display.h \
+  /var/mobile/fastfetch/src/options/general.h \
+  /var/mobile/fastfetch/src/options/logo.h \
+  /var/mobile/fastfetch/src/util/FFcheckmacros.h \
+  /var/mobile/fastfetch/src/util/FFlist.h \
+  /var/mobile/fastfetch/src/util/FFstrbuf.h \
+  /var/mobile/fastfetch/src/util/arrayUtils.h \
+  /var/mobile/fastfetch/src/util/platform/FFPlatform.h \
+  /var/mobile/fastfetch/src/util/unused.h
+
+CMakeFiles/libfastfetch.dir/src/detection/opengl/opengl_ios.c.o: /var/mobile/fastfetch/src/detection/opengl/opengl_ios.c \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/__stddef_max_align_t.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/float.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/limits.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/stdarg.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/stdbool.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/stddef.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/stdint.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/Availability.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityInternal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityVersions.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctermid.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_intmax_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint16_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint32_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uintmax_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/alloca.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_mcontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/arch.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/endian.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/signal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/assert.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/float.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/_OSByteOrder.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/arm/OSByteOrder.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_mcontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/endian.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/signal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/malloc/_malloc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_common.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_string.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_strings.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdint.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdlib.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/string.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/strings.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_endian.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_posix_availability.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_symbol_aliasing.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_dev_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_errno_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_id_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int16_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int32_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_intptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mode_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_null.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_off_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_pid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rsize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rune_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigset_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_size_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ssize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ucontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_va_list.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wchar_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/appleapiopts.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/cdefs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/resource.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/signal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/syslimits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/wait.h \
+  fastfetch_config.h \
+  /var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.h \
+  /var/mobile/fastfetch/src/common/option.h \
+  /var/mobile/fastfetch/src/common/parsing.h \
+  /var/mobile/fastfetch/src/common/percent.h \
+  /var/mobile/fastfetch/src/detection/opengl/opengl.h \
+  /var/mobile/fastfetch/src/fastfetch.h \
+  /var/mobile/fastfetch/src/modules/opengl/option.h \
+  /var/mobile/fastfetch/src/options/display.h \
+  /var/mobile/fastfetch/src/options/general.h \
+  /var/mobile/fastfetch/src/options/logo.h \
+  /var/mobile/fastfetch/src/util/FFcheckmacros.h \
+  /var/mobile/fastfetch/src/util/FFlist.h \
+  /var/mobile/fastfetch/src/util/FFstrbuf.h \
+  /var/mobile/fastfetch/src/util/arrayUtils.h \
+  /var/mobile/fastfetch/src/util/platform/FFPlatform.h \
+  /var/mobile/fastfetch/src/util/unused.h
+
 CMakeFiles/libfastfetch.dir/src/detection/os/os.c.o: /var/mobile/fastfetch/src/detection/os/os.c \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/__stddef_max_align_t.h \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/float.h \
@@ -9674,6 +10414,7 @@ CMakeFiles/libfastfetch.dir/src/detection/os/os_nosupport.c.o: /var/mobile/fastf
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityInternal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityVersions.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctermid.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctype.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_intmax_t.h \
@@ -9692,6 +10433,7 @@ CMakeFiles/libfastfetch.dir/src/detection/os/os_nosupport.c.o: /var/mobile/fastf
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/assert.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/ctype.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/float.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/_OSByteOrder.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/arm/OSByteOrder.h \
@@ -9705,6 +10447,7 @@ CMakeFiles/libfastfetch.dir/src/detection/os/os_nosupport.c.o: /var/mobile/fastf
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/malloc/_malloc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/runetype.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_common.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_string.h \
@@ -9749,12 +10492,14 @@ CMakeFiles/libfastfetch.dir/src/detection/os/os_nosupport.c.o: /var/mobile/fastf
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uintptr_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_va_list.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wchar_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wint_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/appleapiopts.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/cdefs.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/resource.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/syslimits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/utsname.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/wait.h \
   fastfetch_config.h \
   /var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.h \
@@ -9772,6 +10517,7 @@ CMakeFiles/libfastfetch.dir/src/detection/os/os_nosupport.c.o: /var/mobile/fastf
   /var/mobile/fastfetch/src/util/FFstrbuf.h \
   /var/mobile/fastfetch/src/util/arrayUtils.h \
   /var/mobile/fastfetch/src/util/platform/FFPlatform.h \
+  /var/mobile/fastfetch/src/util/stringUtils.h \
   /var/mobile/fastfetch/src/util/unused.h
 
 CMakeFiles/libfastfetch.dir/src/detection/packages/packages.c.o: /var/mobile/fastfetch/src/detection/packages/packages.c \
@@ -9921,7 +10667,7 @@ CMakeFiles/libfastfetch.dir/src/detection/packages/packages.c.o: /var/mobile/fas
   /var/mobile/fastfetch/src/util/platform/FFPlatform.h \
   /var/mobile/fastfetch/src/util/unused.h
 
-CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.o: /var/mobile/fastfetch/src/detection/packages/packages_nosupport.c \
+CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.o: /var/mobile/fastfetch/src/detection/packages/packages_linux.c \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/__stddef_max_align_t.h \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/float.h \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/limits.h \
@@ -9933,6 +10679,7 @@ CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.o: /var/
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityInternal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityVersions.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctermid.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctype.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_intmax_t.h \
@@ -9951,7 +10698,11 @@ CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.o: /var/
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/assert.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/ctype.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/dirent.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/errno.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/float.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/gethostuuid.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/_OSByteOrder.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/limits.h \
@@ -9964,6 +10715,7 @@ CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.o: /var/
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/malloc/_malloc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/runetype.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_common.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_string.h \
@@ -9977,27 +10729,48 @@ CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.o: /var/
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_posix_availability.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_select.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_symbol_aliasing.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blkcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blksize_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_dev_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_errno_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_clr.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_copy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_def.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_isset.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_set.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_zero.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_filesec_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_gid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_id_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int16_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int32_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int64_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int8_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_intptr_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mode_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_nlink_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_null.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_off_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_pid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_posix_vdisable.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rsize_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rune_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_s_ifmt.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_seek_set.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigaltstack.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigset_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_size_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ssize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_time_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timespec.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int16_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int32_t.h \
@@ -10006,20 +10779,205 @@ CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.o: /var/
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ucontext.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_useconds_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uuid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_va_list.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wchar_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wint_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/appleapiopts.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/cdefs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/dirent.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/errno.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/resource.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/select.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/signal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stat.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/syslimits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/unistd.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/wait.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/unistd.h \
   fastfetch_config.h \
   /var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.h \
+  /var/mobile/fastfetch/src/common/io/io.h \
   /var/mobile/fastfetch/src/common/option.h \
   /var/mobile/fastfetch/src/common/parsing.h \
   /var/mobile/fastfetch/src/common/percent.h \
+  /var/mobile/fastfetch/src/common/properties.h \
+  /var/mobile/fastfetch/src/common/settings.h \
+  /var/mobile/fastfetch/src/detection/os/os.h \
+  /var/mobile/fastfetch/src/detection/packages/packages.h \
+  /var/mobile/fastfetch/src/fastfetch.h \
+  /var/mobile/fastfetch/src/modules/os/option.h \
+  /var/mobile/fastfetch/src/modules/packages/option.h \
+  /var/mobile/fastfetch/src/options/display.h \
+  /var/mobile/fastfetch/src/options/general.h \
+  /var/mobile/fastfetch/src/options/logo.h \
+  /var/mobile/fastfetch/src/util/FFcheckmacros.h \
+  /var/mobile/fastfetch/src/util/FFlist.h \
+  /var/mobile/fastfetch/src/util/FFstrbuf.h \
+  /var/mobile/fastfetch/src/util/arrayUtils.h \
+  /var/mobile/fastfetch/src/util/platform/FFPlatform.h \
+  /var/mobile/fastfetch/src/util/stringUtils.h \
+  /var/mobile/fastfetch/src/util/unused.h
+
+CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.o: /var/mobile/fastfetch/src/detection/packages/packages_nix.c \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/__stddef_max_align_t.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/float.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/limits.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/stdarg.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/stdbool.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/stddef.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/stdint.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/Availability.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityInternal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityVersions.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctermid.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctype.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_intmax_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint16_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint32_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uintmax_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/alloca.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_mcontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/arch.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/endian.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/signal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/assert.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/ctype.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/dirent.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/errno.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/float.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/gethostuuid.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/_OSByteOrder.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/arm/OSByteOrder.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_mcontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/endian.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/signal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/malloc/_malloc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/runetype.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_common.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_string.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_strings.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdint.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdlib.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/string.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/strings.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_endian.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_posix_availability.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_select.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_symbol_aliasing.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blkcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blksize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_caddr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_clock_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_dev_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_errno_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_clr.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_copy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_def.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_isset.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_set.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_zero.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_filesec_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_gid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_id_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_in_addr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_in_port_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int16_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int32_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_intptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_key_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mode_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_nlink_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_null.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_off_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_pid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_posix_vdisable.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rsize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rune_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_s_ifmt.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_seek_set.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigset_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_size_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ssize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_time_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timespec.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_char.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_short.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ucontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_useconds_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uuid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_va_list.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wchar_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wint_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/appleapiopts.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/cdefs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/dirent.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/errno.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/resource.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/select.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/signal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stat.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/syslimits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/unistd.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/wait.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/unistd.h \
+  fastfetch_config.h \
+  /var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.h \
+  /var/mobile/fastfetch/src/common/io/io.h \
+  /var/mobile/fastfetch/src/common/option.h \
+  /var/mobile/fastfetch/src/common/parsing.h \
+  /var/mobile/fastfetch/src/common/percent.h \
+  /var/mobile/fastfetch/src/common/processing.h \
   /var/mobile/fastfetch/src/detection/packages/packages.h \
   /var/mobile/fastfetch/src/fastfetch.h \
   /var/mobile/fastfetch/src/modules/packages/option.h \
@@ -10031,6 +10989,7 @@ CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.o: /var/
   /var/mobile/fastfetch/src/util/FFstrbuf.h \
   /var/mobile/fastfetch/src/util/arrayUtils.h \
   /var/mobile/fastfetch/src/util/platform/FFPlatform.h \
+  /var/mobile/fastfetch/src/util/stringUtils.h \
   /var/mobile/fastfetch/src/util/unused.h
 
 CMakeFiles/libfastfetch.dir/src/detection/physicaldisk/physicaldisk_nosupport.c.o: /var/mobile/fastfetch/src/detection/physicaldisk/physicaldisk_nosupport.c \
@@ -11429,6 +12388,7 @@ CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityInternal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityVersions.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctermid.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctype.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_intmax_t.h \
@@ -11447,7 +12407,9 @@ CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/assert.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/ctype.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/float.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/gethostuuid.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/_OSByteOrder.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/limits.h \
@@ -11460,6 +12422,7 @@ CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/malloc/_malloc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/runetype.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_common.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_string.h \
@@ -11473,11 +12436,20 @@ CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_posix_availability.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_select.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_symbol_aliasing.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_dev_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_errno_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_clr.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_copy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_def.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_isset.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_set.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_zero.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_gid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_id_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int16_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int32_t.h \
@@ -11488,12 +12460,17 @@ CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_null.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_off_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_pid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_posix_vdisable.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rsize_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rune_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_seek_set.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigaltstack.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigset_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_size_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ssize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_time_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timespec.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int16_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int32_t.h \
@@ -11502,15 +12479,21 @@ CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ucontext.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_useconds_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uuid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_va_list.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wchar_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wint_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/appleapiopts.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/cdefs.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/resource.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/select.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stdio.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/syslimits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/unistd.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/wait.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/unistd.h \
   fastfetch_config.h \
   /var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.h \
   /var/mobile/fastfetch/src/common/option.h \
@@ -11528,6 +12511,7 @@ CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.
   /var/mobile/fastfetch/src/util/FFstrbuf.h \
   /var/mobile/fastfetch/src/util/arrayUtils.h \
   /var/mobile/fastfetch/src/util/platform/FFPlatform.h \
+  /var/mobile/fastfetch/src/util/stringUtils.h \
   /var/mobile/fastfetch/src/util/unused.h
 
 CMakeFiles/libfastfetch.dir/src/detection/terminalsize/terminalsize_nosupport.c.o: /var/mobile/fastfetch/src/detection/terminalsize/terminalsize_nosupport.c \
@@ -12041,23 +13025,33 @@ CMakeFiles/libfastfetch.dir/src/detection/uptime/uptime_nosupport.c.o: /var/mobi
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/alloca.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_limits.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_mcontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/arch.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/endian.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/assert.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/bsm/audit.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/float.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/_OSByteOrder.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/limits.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/boolean.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/vm_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/boolean.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/boolean.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/vm_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/port.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_mcontext.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/endian.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/types.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/malloc/_malloc.h \
@@ -12073,19 +13067,50 @@ CMakeFiles/libfastfetch.dir/src/detection/uptime/uptime_nosupport.c.o: /var/mobi
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_endian.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_posix_availability.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_select.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_symbol_aliasing.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blkcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blksize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_caddr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_clock_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_dev_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_errno_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_clr.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_copy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_def.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_isset.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_set.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_zero.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_gid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_id_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_in_addr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_in_port_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int16_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int32_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int64_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int8_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_intptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_key_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mach_port_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mode_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_nlink_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_null.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_off_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_pid_t.h \
@@ -12095,23 +13120,43 @@ CMakeFiles/libfastfetch.dir/src/detection/uptime/uptime_nosupport.c.o: /var/mobi
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigset_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_size_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ssize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_time_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timespec.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval64.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_char.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int16_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int32_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int64_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_short.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ucontext.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uid_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_useconds_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_va_list.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wchar_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/appleapiopts.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/cdefs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/event.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/lock.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/param.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/proc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/queue.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/resource.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/select.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/signal.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/sysctl.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/syslimits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/time.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/ucred.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/vm.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/wait.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/time.h \
   fastfetch_config.h \
   /var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.h \
   /var/mobile/fastfetch/src/common/option.h \
@@ -12344,6 +13389,120 @@ CMakeFiles/libfastfetch.dir/src/detection/version/version.c.o: /var/mobile/fastf
   /var/mobile/fastfetch/src/detection/version/version.h \
   /var/mobile/fastfetch/src/fastfetch.h \
   /var/mobile/fastfetch/src/modules/version/option.h \
+  /var/mobile/fastfetch/src/options/display.h \
+  /var/mobile/fastfetch/src/options/general.h \
+  /var/mobile/fastfetch/src/options/logo.h \
+  /var/mobile/fastfetch/src/util/FFcheckmacros.h \
+  /var/mobile/fastfetch/src/util/FFlist.h \
+  /var/mobile/fastfetch/src/util/FFstrbuf.h \
+  /var/mobile/fastfetch/src/util/arrayUtils.h \
+  /var/mobile/fastfetch/src/util/platform/FFPlatform.h \
+  /var/mobile/fastfetch/src/util/unused.h
+
+CMakeFiles/libfastfetch.dir/src/detection/vulkan/vulkan_ios.c.o: /var/mobile/fastfetch/src/detection/vulkan/vulkan_ios.c \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/__stddef_max_align_t.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/float.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/limits.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/stdarg.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/stdbool.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/stddef.h \
+  /usr/lib/llvm-16/lib/clang/16.0.0/include/stdint.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/Availability.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityInternal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityVersions.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctermid.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_intmax_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint16_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint32_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uintmax_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/alloca.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_mcontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/arch.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/endian.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/signal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/assert.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/float.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/_OSByteOrder.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/arm/OSByteOrder.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/_structs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_mcontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/endian.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/limits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/signal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/malloc/_malloc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_common.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_string.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_strings.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdint.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdlib.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/string.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/strings.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_endian.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_posix_availability.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_symbol_aliasing.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_dev_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_errno_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_id_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int16_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int32_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_intptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mode_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_null.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_off_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_pid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rsize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rune_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigset_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_size_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ssize_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ucontext.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_va_list.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wchar_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/appleapiopts.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/cdefs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/resource.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/signal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stdio.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/syslimits.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/wait.h \
+  fastfetch_config.h \
+  /var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.h \
+  /var/mobile/fastfetch/src/common/option.h \
+  /var/mobile/fastfetch/src/common/parsing.h \
+  /var/mobile/fastfetch/src/common/percent.h \
+  /var/mobile/fastfetch/src/detection/gpu/gpu.h \
+  /var/mobile/fastfetch/src/detection/vulkan/vulkan.h \
+  /var/mobile/fastfetch/src/fastfetch.h \
+  /var/mobile/fastfetch/src/modules/gpu/option.h \
+  /var/mobile/fastfetch/src/modules/vulkan/option.h \
   /var/mobile/fastfetch/src/options/display.h \
   /var/mobile/fastfetch/src/options/general.h \
   /var/mobile/fastfetch/src/options/logo.h \
@@ -24016,67 +25175,75 @@ CMakeFiles/libfastfetch.dir/src/util/smbiosHelper.c.o: /var/mobile/fastfetch/src
   /var/mobile/fastfetch/src/util/unused.h
 
 
+/var/mobile/fastfetch/src/util/smbiosHelper.h:
+
 /var/mobile/fastfetch/src/util/smbiosHelper.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/uuid/uuid.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/utsname.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/pwd.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/paths.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/paths.h:
+
+/var/mobile/fastfetch/src/util/platform/FFPlatform_private.h:
 
 /var/mobile/fastfetch/src/util/platform/FFPlatform.c:
 
 /var/mobile/fastfetch/src/util/edidHelper.h:
 
-/var/mobile/fastfetch/src/util/edidHelper.c:
-
-/var/mobile/fastfetch/src/util/base64.c:
+/var/mobile/fastfetch/src/util/binary_linux.c:
 
 /var/mobile/fastfetch/src/util/FFstrbuf.c:
 
 /var/mobile/fastfetch/src/util/FFlist.c:
 
-/var/mobile/fastfetch/src/modules/wifi/wifi.c:
+/var/mobile/fastfetch/src/modules/zpool/zpool.c:
+
+/var/mobile/fastfetch/src/modules/wmtheme/wmtheme.c:
 
 /var/mobile/fastfetch/src/modules/wallpaper/wallpaper.c:
 
-/var/mobile/fastfetch/src/modules/users/users.c:
-
 /var/mobile/fastfetch/src/modules/tpm/tpm.c:
+
+/var/mobile/fastfetch/src/modules/title/title.c:
+
+/var/mobile/fastfetch/src/modules/terminaltheme/terminaltheme.c:
+
+/var/mobile/fastfetch/src/modules/terminalsize/terminalsize.c:
 
 /var/mobile/fastfetch/src/modules/terminalfont/terminalfont.c:
 
 /var/mobile/fastfetch/src/modules/swap/swap.c:
 
-/var/mobile/fastfetch/src/modules/sound/sound.c:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mbstate_t.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/wchar.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/_wctype.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_wctype_t.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/__wctype.h:
 
+/var/mobile/fastfetch/src/util/base64.c:
+
 /var/mobile/fastfetch/src/modules/separator/separator.c:
 
-/var/mobile/fastfetch/src/modules/player/player.c:
+/var/mobile/fastfetch/src/modules/publicip/publicip.c:
+
+/var/mobile/fastfetch/src/modules/physicaldisk/physicaldisk.c:
 
 /var/mobile/fastfetch/src/modules/os/os.c:
 
-/var/mobile/fastfetch/src/modules/opengl/opengl.c:
+/var/mobile/fastfetch/src/modules/netio/netio.c:
+
+/var/mobile/fastfetch/src/modules/mouse/mouse.c:
 
 /var/mobile/fastfetch/src/modules/monitor/monitor.c:
 
-/var/mobile/fastfetch/src/modules/localip/localip.c:
+/var/mobile/fastfetch/src/modules/memory/memory.c:
 
-/var/mobile/fastfetch/src/util/platform/FFPlatform_unix.c:
+/var/mobile/fastfetch/src/modules/media/media.c:
 
 /var/mobile/fastfetch/src/modules/loadavg/loadavg.c:
 
 /var/mobile/fastfetch/src/modules/lm/lm.c:
-
-/var/mobile/fastfetch/src/modules/host/host.c:
 
 /var/mobile/fastfetch/src/modules/gpu/gpu.c:
 
@@ -24084,53 +25251,55 @@ CMakeFiles/libfastfetch.dir/src/util/smbiosHelper.c.o: /var/mobile/fastfetch/src
 
 /var/mobile/fastfetch/src/modules/datetime/datetime.c:
 
-/var/mobile/fastfetch/src/modules/custom/custom.c:
-
 /var/mobile/fastfetch/src/modules/cpuusage/cpuusage.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:
 
 /var/mobile/fastfetch/src/modules/cpucache/cpucache.c:
 
+/var/mobile/fastfetch/src/modules/physicalmemory/option.h:
+
 /var/mobile/fastfetch/src/modules/command/command.c:
-
-/var/mobile/fastfetch/src/modules/btrfs/btrfs.c:
-
-/var/mobile/fastfetch/src/modules/brightness/brightness.c:
 
 /var/mobile/fastfetch/src/modules/bootmgr/bootmgr.c:
 
 /var/mobile/fastfetch/src/modules/board/board.c:
 
-/var/mobile/fastfetch/src/modules/bluetoothradio/bluetoothradio.c:
-
-/var/mobile/fastfetch/src/modules/processes/processes.c:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/_types.h:
 
 /var/mobile/fastfetch/src/modules/bluetooth/bluetooth.c:
 
-/var/mobile/fastfetch/src/modules/bios/bios.c:
-
-/var/mobile/fastfetch/src/modules/physicalmemory/physicalmemory.c:
+/var/mobile/fastfetch/src/detection/cpu/cpu.h:
 
 /var/mobile/fastfetch/src/logo/logo.c:
 
 /var/mobile/fastfetch/src/logo/image/image.c:
 
+/var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.c:
+
 /var/mobile/fastfetch/src/logo/image/im7.c:
 
 /var/mobile/fastfetch/src/logo/builtin.c:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/types.h:
+
 /var/mobile/fastfetch/src/detection/zpool/zpool.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/wait.h:
 
 /var/mobile/fastfetch/src/detection/zpool/zpool_nosupport.c:
 
-/var/mobile/fastfetch/src/detection/wmtheme/wmtheme.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/unistd.h:
 
 /var/mobile/fastfetch/src/detection/wmtheme/wmtheme_nosupport.c:
 
 /var/mobile/fastfetch/src/detection/wm/wm.h:
 
-/var/mobile/fastfetch/src/detection/wifi/wifi.h:
+/var/mobile/fastfetch/src/modules/weather/weather.h:
 
 /var/mobile/fastfetch/src/detection/weather/weather.c:
+
+/var/mobile/fastfetch/src/detection/uptime/uptime_nosupport.c:
 
 /var/mobile/fastfetch/src/detection/wallpaper/wallpaper.h:
 
@@ -24138,19 +25307,21 @@ CMakeFiles/libfastfetch.dir/src/util/smbiosHelper.c.o: /var/mobile/fastfetch/src
 
 /var/mobile/fastfetch/src/detection/users/users.h:
 
-/var/mobile/fastfetch/src/detection/users/users_nosupport.c:
-
-/var/mobile/fastfetch/src/detection/uptime/uptime_nosupport.c:
-
 /var/mobile/fastfetch/src/detection/tpm/tpm.h:
 
 /var/mobile/fastfetch/src/detection/theme/theme_nosupport.c:
 
 /var/mobile/fastfetch/src/detection/terminalsize/terminalsize.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/notify.h:
+
 /var/mobile/fastfetch/src/detection/terminalsize/terminalsize_nosupport.c:
 
+/var/mobile/fastfetch/src/detection/terminaltheme/terminaltheme.c:
+
 /var/mobile/fastfetch/src/detection/terminalshell/terminalshell.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/limits.h:
 
 /var/mobile/fastfetch/src/detection/terminalfont/terminalfont_ios.c:
 
@@ -24158,9 +25329,15 @@ CMakeFiles/libfastfetch.dir/src/util/smbiosHelper.c.o: /var/mobile/fastfetch/src
 
 /var/mobile/fastfetch/src/detection/terminalfont/terminalfont.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/kern_return.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/net/if.h:
+
 /var/mobile/fastfetch/src/detection/sound/sound_nosupport.c:
 
 /var/mobile/fastfetch/src/detection/processes/processes.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int8_t.h:
 
 /var/mobile/fastfetch/src/detection/poweradapter/poweradapter_nosupport.c:
 
@@ -24170,29 +25347,113 @@ CMakeFiles/libfastfetch.dir/src/util/smbiosHelper.c.o: /var/mobile/fastfetch/src
 
 /var/mobile/fastfetch/src/detection/publicip/publicip.c:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino64_t.h:
+
 /var/mobile/fastfetch/src/detection/physicaldisk/physicaldisk.h:
 
+/var/mobile/fastfetch/src/common/time.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_caddr_t.h:
+
 /var/mobile/fastfetch/src/detection/physicaldisk/physicaldisk_nosupport.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_limits.h:
+
+/var/mobile/fastfetch/src/common/font.c:
 
 /var/mobile/fastfetch/src/detection/packages/packages.h:
 
 /var/mobile/fastfetch/src/detection/packages/packages.c:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_zero.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/utsname.h:
+
+/var/mobile/fastfetch/src/detection/opengl/opengl_ios.c:
+
+/var/mobile/fastfetch/src/detection/opencl/opencl_ios.c:
+
 /var/mobile/fastfetch/src/detection/mouse/mouse_nosupport.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/zone_info.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/page_info.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/string.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/lockgroup_info.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/thread_status.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/hash_info.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_switch.h:
+
+/var/mobile/fastfetch/src/modules/brightness/brightness.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_string.h:
+
+/usr/lib/llvm-16/lib/clang/16.0.0/include/stdarg.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/event.h:
+
+/var/mobile/fastfetch/src/modules/bluetoothradio/bluetoothradio.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/termios.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/sync_policy.h:
+
+/var/mobile/fastfetch/src/modules/host/host.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/bsm/audit.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDate.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/semaphore.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/ndr.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mig_strncpy_zerofill_support.h:
+
+/var/mobile/fastfetch/src/detection/locale/locale.h:
+
+/var/mobile/fastfetch/src/modules/custom/custom.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mig_errors.h:
+
+/var/mobile/fastfetch/src/modules/chassis/chassis.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mig.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_voucher_types.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_interface.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_host.h:
+
+/usr/lib/llvm-16/lib/clang/16.0.0/include/__stddef_max_align_t.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_security.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_inherit.h:
 
 /var/mobile/fastfetch/src/modules/disk/disk.c:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_act.h:
+
 /var/mobile/fastfetch/src/detection/media/media.h:
+
+/var/mobile/fastfetch/src/util/path.c:
 
 /var/mobile/fastfetch/src/detection/localip/localip.h:
 
 /var/mobile/fastfetch/src/detection/localip/localip_nosupport.c:
 
-/var/mobile/fastfetch/src/detection/locale/locale.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_wctype_t.h:
-
 /var/mobile/fastfetch/src/detection/locale/locale_nosupport.c:
+
+/var/mobile/fastfetch/src/modules/processes/processes.c:
 
 /var/mobile/fastfetch/src/detection/loadavg/loadavg_nosupport.c:
 
@@ -24202,7 +25463,11 @@ CMakeFiles/libfastfetch.dir/src/util/smbiosHelper.c.o: /var/mobile/fastfetch/src
 
 /var/mobile/fastfetch/src/detection/libc/libc.h:
 
+/var/mobile/fastfetch/src/detection/packages/packages_nix.c:
+
 /var/mobile/fastfetch/src/detection/libc/libc_nosupport.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_port.h:
 
 /var/mobile/fastfetch/src/detection/keyboard/keyboard.h:
 
@@ -24210,67 +25475,281 @@ CMakeFiles/libfastfetch.dir/src/util/smbiosHelper.c.o: /var/mobile/fastfetch/src
 
 /var/mobile/fastfetch/src/detection/initsystem/initsystem_nosupport.c:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/net/if_var.h:
+
+/var/mobile/fastfetch/src/modules/editor/option.h:
+
+/var/mobile/fastfetch/src/detection/board/board_nosupport.c:
+
 /var/mobile/fastfetch/src/detection/vulkan/vulkan.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/netinet/tcp.h:
 
 /var/mobile/fastfetch/src/detection/gpu/gpu.h:
 
-/var/mobile/fastfetch/src/detection/gamepad/gamepad.h:
+/var/mobile/fastfetch/src/util/edidHelper.c:
 
 /var/mobile/fastfetch/src/detection/dns/dns.h:
 
 /var/mobile/fastfetch/src/detection/displayserver/displayserver_nosupport.c:
 
-/var/mobile/fastfetch/src/util/wcwidth.h:
-
-/var/mobile/fastfetch/src/detection/displayserver/displayserver.c:
-
 /var/mobile/fastfetch/src/logo/image/image.h:
 
 /var/mobile/fastfetch/src/detection/diskio/diskio_nosupport.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint8_t.h:
+
+/var/mobile/fastfetch/src/detection/icons/icons_nosupport.c:
+
+/var/mobile/fastfetch/src/detection/diskio/diskio.c:
 
 /var/mobile/fastfetch/src/modules/colors/colors.c:
 
 /var/mobile/fastfetch/src/detection/icons/icons.h:
 
+/var/mobile/fastfetch/src/detection/gpu/gpu_nosupport.c:
+
 /var/mobile/fastfetch/src/detection/diskio/diskio.h:
 
-/var/mobile/fastfetch/src/detection/disk/disk_nosupport.c:
+/var/mobile/fastfetch/src/modules/packages/option.h:
+
+/var/mobile/fastfetch/src/modules/separator/option.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/mount.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_os_inline.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_guid_t.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsid_t.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/os/workgroup_parallel.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/os/workgroup_base.h:
+
+/var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/stdint.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/os/object.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/os/availability.h:
+
+/var/mobile/fastfetch/src/modules/lm/lm.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_sync.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_statistics.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/pthread/pthread_impl.h:
+
+/var/mobile/fastfetch/src/modules/btrfs/btrfs.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_region.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_purgable.h:
+
+/var/mobile/fastfetch/src/modules/bios/bios.c:
+
+/var/mobile/fastfetch/src/detection/de/de.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_attributes.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_priv.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task_inspect.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task_info.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/processor_info.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/termios.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/policy.h:
+
+/var/mobile/fastfetch/src/detection/displayserver/displayserver.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/memory_object_types.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/processor_info.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/object.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/kmod.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_special_ports.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/error.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/dyld_kernel.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/vm_param.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/OSTypes.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_graftdmg_un.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigset_t.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBitVector.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/OSByteOrder.h:
+
+/var/mobile/fastfetch/src/detection/wmtheme/wmtheme.h:
+
+/var/mobile/fastfetch/src/common/format.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_types.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/workloop.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/time.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/dirent.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/once.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/io.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework/Headers/OSMessageNotification.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/thread_status.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/group.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/fcntl.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/base.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/device/device_types.h:
+
+/var/mobile/fastfetch/src/common/netif/netif.h:
+
+/var/mobile/fastfetch/src/modules/wmtheme/wmtheme.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/MacTypes.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFXMLParser.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task_policy.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFUtilities.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFUserNotification.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFUUID.h:
+
+/var/mobile/fastfetch/src/modules/processes/option.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURL.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFSocket.h:
+
+/var/mobile/fastfetch/src/modules/icons/option.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFSet.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_info.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFRunLoop.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPropertyList.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOTypes.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPlugIn.h:
+
+/var/mobile/fastfetch/src/detection/gamepad/gamepad.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNotificationCenter.h:
+
+/var/mobile/fastfetch/src/detection/bootmgr/bootmgr.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFMachPort.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFData.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumberFormatter.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFCharacterSet.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFByteOrder.h:
+
+/var/mobile/fastfetch/src/detection/wifi/wifi.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBundle.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBag.h:
+
+/var/mobile/fastfetch/src/detection/users/users_nosupport.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rsize_t.h:
+
+/var/mobile/fastfetch/src/detection/disk/disk_bsd.c:
+
+/var/mobile/fastfetch/src/util/base64.h:
 
 /var/mobile/fastfetch/src/detection/disk/disk.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mbstate_t.h:
-
 /var/mobile/fastfetch/src/modules/icons/icons.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/std_types.h:
+
+/var/mobile/fastfetch/src/modules/packages/packages.c:
 
 /var/mobile/fastfetch/src/detection/de/de_nosupport.c:
 
 /var/mobile/fastfetch/src/detection/cursor/cursor_nosupport.c:
 
-/var/mobile/fastfetch/src/util/binary_linux.c:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blksize_t.h:
 
 /var/mobile/fastfetch/src/detection/cpuusage/cpuusage.h:
 
 /var/mobile/fastfetch/src/detection/cpucache/cpucache.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/time_value.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/queue.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/exception.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFTimeZone.h:
+
 /var/mobile/fastfetch/src/detection/cpuusage/cpuusage_nosupport.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/param.h:
 
 /var/mobile/fastfetch/src/detection/cpucache/cpucache_nosupport.c:
 
-/var/mobile/fastfetch/src/detection/cpu/cpu_nosupport.c:
-
 /var/mobile/fastfetch/src/detection/chassis/chassis_nosupport.c:
-
-/var/mobile/fastfetch/src/detection/terminaltheme/terminaltheme.c:
 
 /var/mobile/fastfetch/src/detection/chassis/chassis.h:
 
 /var/mobile/fastfetch/src/detection/chassis/chassis.c:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/clock_priv.h:
+
 /var/mobile/fastfetch/src/detection/btrfs/btrfs.h:
 
 /var/mobile/fastfetch/src/detection/brightness/brightness.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timespec.h:
+
 /var/mobile/fastfetch/src/detection/brightness/brightness_nosupport.c:
+
+/var/mobile/fastfetch/src/modules/disk/disk.h:
 
 logo_builtin.h:
 
@@ -24278,9 +25757,15 @@ logo_builtin.h:
 
 /var/mobile/fastfetch/src/detection/os/os.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_intmax_t.h:
+
+/var/mobile/fastfetch/src/modules/icons/icons.h:
+
 /var/mobile/fastfetch/src/detection/bootmgr/efi_helper.h:
 
-/var/mobile/fastfetch/src/detection/bootmgr/bootmgr.h:
+/var/mobile/fastfetch/src/modules/separator/separator.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h:
 
 /var/mobile/fastfetch/src/detection/camera/camera_nosupport.c:
 
@@ -24288,11 +25773,15 @@ logo_builtin.h:
 
 /var/mobile/fastfetch/src/detection/board/board.h:
 
+/var/mobile/fastfetch/src/modules/terminaltheme/option.h:
+
 /var/mobile/fastfetch/src/detection/wm/wm_nosupport.c:
 
-/var/mobile/fastfetch/src/detection/board/board_nosupport.c:
+/var/mobile/fastfetch/src/modules/dns/dns.c:
 
 /var/mobile/fastfetch/src/detection/bluetoothradio/bluetoothradio_nosupport.c:
+
+/var/mobile/fastfetch/src/modules/shell/shell.c:
 
 /var/mobile/fastfetch/src/detection/bluetoothradio/bluetoothradio.h:
 
@@ -24304,15 +25793,21 @@ logo_builtin.h:
 
 /var/mobile/fastfetch/src/detection/bios/bios.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/inttypes.h:
+
 /var/mobile/fastfetch/src/detection/mouse/mouse.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFFileSecurity.h:
 
 /var/mobile/fastfetch/src/common/temps.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/ConditionalMacros.h:
+
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/vm.h:
 
-/var/mobile/fastfetch/src/detection/wallpaper/wallpaper_nosupport.c:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/os/workgroup_interval.h:
 
-/var/mobile/fastfetch/src/detection/diskio/diskio.c:
+/var/mobile/fastfetch/src/detection/wallpaper/wallpaper_nosupport.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/ucred.h:
 
@@ -24320,69 +25815,97 @@ logo_builtin.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/proc.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/os/clock.h:
+
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/lock.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/event.h:
-
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/param.h:
+
+/var/mobile/fastfetch/src/util/path.h:
 
 /var/mobile/fastfetch/src/common/size.c:
 
 /var/mobile/fastfetch/src/common/settings.c:
 
+/var/mobile/fastfetch/src/modules/processes/processes.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/rpc.h:
+
+/var/mobile/fastfetch/src/modules/break/break.h:
+
 /var/mobile/fastfetch/src/detection/editor/editor.c:
 
+/var/mobile/fastfetch/src/modules/sound/sound.c:
+
 /var/mobile/fastfetch/src/common/properties.h:
+
+/var/mobile/fastfetch/src/modules/colors/option.h:
+
+/var/mobile/fastfetch/src/modules/media/option.h:
 
 /var/mobile/fastfetch/src/common/properties.c:
 
 /var/mobile/fastfetch/src/common/processing.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/spawn.h:
+
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/spawn.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/spawn.h:
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOReturn.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/ipc_info.h:
 
 /var/mobile/fastfetch/src/detection/opengl/opengl.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_status.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/poll.h:
 
-/var/mobile/fastfetch/src/modules/packages/packages.c:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_status.h:
 
 /var/mobile/fastfetch/src/detection/initsystem/initsystem.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/vm_types.h:
 
-/var/mobile/fastfetch/src/modules/media/media.c:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/rpc.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/thread_status.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_clock_t.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/limits.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/kern_return.h:
 
-/var/mobile/fastfetch/src/modules/shell/shell.c:
+/var/mobile/fastfetch/src/detection/host/host_nosupport.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/boolean.h:
 
-/var/mobile/fastfetch/src/modules/wm/wm.c:
-
 /var/mobile/fastfetch/src/modules/display/display.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStringTokenizer.h:
+
+/var/mobile/fastfetch/src/common/temps.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/kern_return.h:
 
+/var/mobile/fastfetch/src/common/commandoption.h:
+
+/var/mobile/fastfetch/src/common/time.c:
+
 /var/mobile/fastfetch/src/detection/netio/netio.h:
+
+/var/mobile/fastfetch/src/modules/theme/theme.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/vm_types.h:
 
-/var/mobile/fastfetch/src/util/path.c:
+/var/mobile/fastfetch/src/common/option.h:
 
 /var/mobile/fastfetch/src/common/settings.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/thread_status.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/thread_state.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/exception.h:
+
+/usr/lib/llvm-16/lib/clang/16.0.0/include/ptrauth.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/time.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/TargetConditionals.h:
 
@@ -24390,19 +25913,29 @@ logo_builtin.h:
 
 /var/mobile/fastfetch/src/common/percent.c:
 
+/var/mobile/fastfetch/src/detection/cursor/cursor.h:
+
 /var/mobile/fastfetch/src/common/option.c:
 
 /var/mobile/fastfetch/src/util/mallocHelper.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/netdb.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/endian.h:
+
+/var/mobile/fastfetch/src/detection/poweradapter/poweradapter.h:
+
 /var/mobile/fastfetch/src/common/networking/networking_linux.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_pid_t.h:
 
+/var/mobile/fastfetch/src/modules/brightness/option.h:
+
 /var/mobile/fastfetch/src/common/netif/netif_ios.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/time.h:
+
+/var/mobile/fastfetch/src/modules/initsystem/initsystem.h:
 
 /var/mobile/fastfetch/src/util/FFstrbuf.h:
 
@@ -24412,11 +25945,19 @@ logo_builtin.h:
 
 /var/mobile/fastfetch/src/common/netif/netif.c:
 
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStringEncodingExt.h:
+
 /var/mobile/fastfetch/src/detection/weather/weather.h:
 
 /var/mobile/fastfetch/src/modules/monitor/monitor.h:
 
 /var/mobile/fastfetch/src/common/modules.c:
+
+/var/mobile/fastfetch/src/detection/netio/netio.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitKeys.h:
+
+/var/mobile/fastfetch/src/modules/opengl/opengl.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
@@ -24426,7 +25967,7 @@ logo_builtin.h:
 
 /var/mobile/fastfetch/src/detection/swap/swap.h:
 
-/var/mobile/fastfetch/src/common/option.h:
+/var/mobile/fastfetch/src/modules/vulkan/vulkan.c:
 
 /var/mobile/fastfetch/src/common/library.c:
 
@@ -24434,25 +25975,37 @@ logo_builtin.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_def.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/source.h:
+
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/ttycom.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAttributedString.h:
+
+/var/mobile/fastfetch/src/modules/diskio/option.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigaltstack.h:
 
 /var/mobile/fastfetch/src/modules/command/command.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_posix_vdisable.h:
+
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stat.h:
+
+/var/mobile/fastfetch/src/options/logo.c:
 
 /var/mobile/fastfetch/src/logo/image/im6.c:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/fcntl.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/syslimits.h:
 
-/var/mobile/fastfetch/src/common/format.h:
+/var/mobile/fastfetch/src/common/library.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_prot.h:
+
+/var/mobile/fastfetch/src/modules/physicalmemory/physicalmemory.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_param.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/dirent.h:
-
-/var/mobile/fastfetch/src/modules/terminaltheme/terminaltheme.c:
+/var/mobile/fastfetch/src/common/jsonconfig.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/types.h:
 
@@ -24460,19 +26013,21 @@ logo_builtin.h:
 
 /var/mobile/fastfetch/src/detection/wifi/wifi_nosupport.c:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/limits.h:
+
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_filesec_t.h:
 
 /var/mobile/fastfetch/src/modules/cursor/cursor.h:
 
 /var/mobile/fastfetch/src/common/io/io_unix.c:
 
-/var/mobile/fastfetch/src/modules/memory/memory.c:
-
 /var/mobile/fastfetch/src/detection/terminaltheme/terminaltheme.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctype.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/strings.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/limits.h:
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFCalendar.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctype.h:
 
 /var/mobile/fastfetch/src/common/init.h:
 
@@ -24482,15 +26037,23 @@ logo_builtin.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/unistd.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFCGTypes.h:
+
 /var/mobile/fastfetch/src/common/processing_linux.c:
 
 /var/mobile/fastfetch/src/modules/users/users.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/unistd.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/rpc.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/select.h:
 
 /var/mobile/fastfetch/src/detection/media/media.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_intptr_t.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/kauth.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsobj_id_t.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_seek_set.h:
 
@@ -24514,39 +26077,53 @@ logo_builtin.h:
 
 /var/mobile/fastfetch/src/common/frequency.h:
 
-/var/mobile/fastfetch/src/util/path.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_dev_t.h:
 
 /var/mobile/fastfetch/src/detection/editor/editor.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDateFormatter.h:
 
 /var/mobile/fastfetch/src/common/format.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_null.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/wchar.h:
+
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval64.h:
 
 /var/mobile/fastfetch/src/common/font.h:
 
+/var/mobile/fastfetch/src/util/FFlist.h:
+
 /var/mobile/fastfetch/src/util/unused.h:
 
+/var/mobile/fastfetch/src/modules/users/users.c:
+
 /var/mobile/fastfetch/src/modules/cpu/cpu.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int64_t.h:
 
 /var/mobile/fastfetch/src/modules/camera/camera.h:
 
 /var/mobile/fastfetch/src/util/platform/FFPlatform.h:
 
-/var/mobile/fastfetch/src/util/FFlist.h:
+/var/mobile/fastfetch/src/modules/command/option.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_error.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_gid_t.h:
+
+/var/mobile/fastfetch/src/options/display.c:
 
 /var/mobile/fastfetch/src/options/logo.h:
 
 /var/mobile/fastfetch/src/modules/zpool/zpool.h:
 
-/var/mobile/fastfetch/src/modules/wmtheme/wmtheme.h:
-
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_param.h:
 
 /usr/lib/llvm-16/lib/clang/16.0.0/include/stdbool.h:
+
+/var/mobile/fastfetch/src/modules/shell/shell.h:
 
 /var/mobile/fastfetch/src/modules/wmtheme/option.h:
 
@@ -24556,21 +26133,31 @@ logo_builtin.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/pthread/qos.h:
 
-/var/mobile/fastfetch/src/modules/opencl/opencl.c:
-
 /var/mobile/fastfetch/src/modules/wm/option.h:
 
 /var/mobile/fastfetch/src/modules/bluetoothradio/option.h:
 
-/var/mobile/fastfetch/src/modules/weather/weather.h:
+/var/mobile/fastfetch/src/modules/zpool/option.h:
+
+/var/mobile/fastfetch/src/modules/opengl/option.h:
 
 /var/mobile/fastfetch/src/modules/weather/option.h:
 
+/var/mobile/fastfetch/src/modules/opencl/opencl.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_s_ifmt.h:
+
 /var/mobile/fastfetch/src/detection/sound/sound.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/pwd.h:
 
 /var/mobile/fastfetch/src/modules/vulkan/vulkan.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURLAccess.h:
+
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types.h:
+
+/var/mobile/fastfetch/src/modules/localip/localip.c:
 
 /var/mobile/fastfetch/src/modules/vulkan/option.h:
 
@@ -24578,11 +26165,9 @@ logo_builtin.h:
 
 /var/mobile/fastfetch/src/modules/version/option.h:
 
+/var/mobile/fastfetch/src/modules/gpu/gpu.h:
+
 /var/mobile/fastfetch/src/modules/users/option.h:
-
-/var/mobile/fastfetch/src/modules/wmtheme/wmtheme.c:
-
-/var/mobile/fastfetch/src/common/time.c:
 
 /var/mobile/fastfetch/src/options/general.h:
 
@@ -24596,21 +26181,27 @@ logo_builtin.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/queue.h:
 
-/var/mobile/fastfetch/src/options/display.c:
-
-/var/mobile/fastfetch/src/detection/de/de.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/processor_set.h:
 
 /var/mobile/fastfetch/src/modules/title/title.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_nlink_t.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFTree.h:
+
+/var/mobile/fastfetch/src/modules/version/version.c:
+
+/var/mobile/fastfetch/src/util/debug.h:
+
 /var/mobile/fastfetch/src/modules/theme/theme.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval32.h:
 
 /var/mobile/fastfetch/src/modules/terminalsize/terminalsize.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/paths.h:
+/var/mobile/fastfetch/src/common/commandoption.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/netinet/in.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/param.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/_structs.h:
 
@@ -24618,9 +26209,17 @@ logo_builtin.h:
 
 /var/mobile/fastfetch/src/modules/terminal/terminal.h:
 
+/var/mobile/fastfetch/src/modules/weather/weather.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/os/workgroup.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_suseconds_t.h:
+
 /var/mobile/fastfetch/src/modules/localip/option.h:
 
 /var/mobile/fastfetch/src/modules/terminal/option.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/_structs.h:
 
 /var/mobile/fastfetch/src/modules/swap/option.h:
 
@@ -24628,45 +26227,35 @@ logo_builtin.h:
 
 /var/mobile/fastfetch/src/modules/sound/sound.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/setjmp.h:
+
 /var/mobile/fastfetch/src/modules/shell/option.h:
 
-/var/mobile/fastfetch/src/modules/icons/icons.h:
-
-/var/mobile/fastfetch/src/modules/separator/separator.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval32.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/time.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_special_ports.h:
 
 /var/mobile/fastfetch/src/modules/theme/option.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_posix_vdisable.h:
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFLocale.h:
 
 /var/mobile/fastfetch/src/util/binary.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_clock_t.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/string.h:
-
-/var/mobile/fastfetch/src/modules/separator/option.h:
 
 /var/mobile/fastfetch/src/modules/editor/editor.c:
 
 /var/mobile/fastfetch/src/modules/publicip/option.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_nlink_t.h:
-
-/var/mobile/fastfetch/src/modules/processes/option.h:
-
 /var/mobile/fastfetch/src/detection/font/font.c:
 
-/var/mobile/fastfetch/src/modules/gpu/gpu.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_info.h:
 
 /var/mobile/fastfetch/src/modules/poweradapter/poweradapter.h:
 
-/var/mobile/fastfetch/src/detection/poweradapter/poweradapter.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uuid_t.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/vm_param.h:
 
 /var/mobile/fastfetch/src/options/display.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/_OSByteOrder.h:
 
 /var/mobile/fastfetch/src/modules/wifi/option.h:
 
@@ -24676,9 +26265,11 @@ logo_builtin.h:
 
 /var/mobile/fastfetch/src/modules/terminalsize/option.h:
 
-/var/mobile/fastfetch/src/common/library.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_time_t.h:
 
 /var/mobile/fastfetch/src/common/sysctl.c:
+
+/var/mobile/fastfetch/src/modules/os/option.h:
 
 /var/mobile/fastfetch/src/modules/packages/packages.h:
 
@@ -24686,43 +26277,27 @@ logo_builtin.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_va_list.h:
 
-/var/mobile/fastfetch/src/modules/packages/option.h:
-
-/var/mobile/fastfetch/src/modules/os/option.h:
-
 /var/mobile/fastfetch/src/modules/break/break.c:
-
-/var/mobile/fastfetch/src/modules/opengl/option.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/termios.h:
 
 /var/mobile/fastfetch/src/detection/terminalshell/terminalshell_nosupport.c:
 
+/var/mobile/fastfetch/src/modules/kernel/option.h:
+
 /var/mobile/fastfetch/src/modules/opencl/option.h:
 
-/var/mobile/fastfetch/src/modules/editor/option.h:
-
 /var/mobile/fastfetch/src/modules/opencl/opencl.h:
-
-/var/mobile/fastfetch/src/modules/title/title.c:
 
 /var/mobile/fastfetch/src/modules/mouse/option.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint32_t.h:
 
-/var/mobile/fastfetch/src/util/debug.h:
-
 /var/mobile/fastfetch/src/common/networking/networking.h:
 
 /var/mobile/fastfetch/src/modules/title/option.h:
 
-/var/mobile/fastfetch/src/util/platform/FFPlatform_private.h:
-
 /var/mobile/fastfetch/src/modules/physicaldisk/physicaldisk.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_types.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino64_t.h:
 
 /var/mobile/fastfetch/src/modules/monitor/option.h:
 
@@ -24732,11 +26307,13 @@ logo_builtin.h:
 
 /var/mobile/fastfetch/src/modules/memory/memory.h:
 
-/var/mobile/fastfetch/src/modules/media/option.h:
-
 /var/mobile/fastfetch/src/modules/localip/localip.h:
 
+/var/mobile/fastfetch/src/modules/battery/option.h:
+
 /var/mobile/fastfetch/src/detection/theme/theme.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityMacros.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/endian.h:
 
@@ -24746,45 +26323,49 @@ logo_builtin.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/errno.h:
 
-/var/mobile/fastfetch/src/modules/lm/lm.h:
-
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int16_t.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int16_t.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/glob.h:
 
 /var/mobile/fastfetch/src/modules/keyboard/option.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/runetype.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/poll.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/cdefs.h:
 
-/var/mobile/fastfetch/src/modules/kernel/option.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/poll.h:
 
 /var/mobile/fastfetch/src/modules/kernel/kernel.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/arm/OSByteOrder.h:
 
-/var/mobile/fastfetch/src/modules/initsystem/option.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int8_t.h:
 
-/var/mobile/fastfetch/src/detection/packages/packages_nosupport.c:
+/var/mobile/fastfetch/src/modules/initsystem/option.h:
 
 /usr/lib/llvm-16/lib/clang/16.0.0/include/limits.h:
 
-/var/mobile/fastfetch/src/modules/initsystem/initsystem.h:
+/var/mobile/fastfetch/src/modules/uptime/uptime.c:
 
 /var/mobile/fastfetch/src/modules/host/host.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_dev_t.h:
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFMessagePort.h:
 
 /var/mobile/fastfetch/src/modules/gpu/option.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/exception_types.h:
 
+/var/mobile/fastfetch/src/modules/cpu/option.h:
+
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_socklen_t.h:
+
+/var/mobile/fastfetch/src/detection/cpu/cpu_apple.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/ioccom.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/netinet6/in6.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/pthread/pthread_impl.h:
 
 /var/mobile/fastfetch/src/modules/gamepad/option.h:
 
@@ -24792,15 +26373,23 @@ logo_builtin.h:
 
 /var/mobile/fastfetch/src/modules/gamepad/gamepad.c:
 
+/var/mobile/fastfetch/src/detection/gtk_qt/gtk_qt.h:
+
 /var/mobile/fastfetch/src/modules/bootmgr/option.h:
 
 /var/mobile/fastfetch/src/modules/font/option.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_size_t.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_init.h:
 
 /var/mobile/fastfetch/src/modules/chassis/option.h:
 
 /var/mobile/fastfetch/src/modules/keyboard/keyboard.h:
 
 /var/mobile/fastfetch/src/modules/cpucache/option.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBinaryHeap.h:
 
 /var/mobile/fastfetch/src/modules/font/font.h:
 
@@ -24812,29 +26401,21 @@ logo_builtin.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/alloca.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/net/if.h:
-
 /var/mobile/fastfetch/src/modules/display/option.h:
-
-/var/mobile/fastfetch/src/modules/disk/disk.h:
 
 /var/mobile/fastfetch/src/modules/lm/option.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/endian.h:
-
 /var/mobile/fastfetch/src/modules/datetime/datetime.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_time_t.h:
 
 /var/mobile/fastfetch/src/modules/custom/custom.h:
 
 /var/mobile/fastfetch/src/modules/font/font.c:
 
+/var/mobile/fastfetch/src/modules/disk/option.h:
+
 /var/mobile/fastfetch/src/modules/cursor/option.h:
 
 /var/mobile/fastfetch/src/logo/logo.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/_types.h:
 
 /var/mobile/fastfetch/src/modules/cpuusage/option.h:
 
@@ -24844,29 +26425,33 @@ logo_builtin.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_clr.h:
 
-/var/mobile/fastfetch/src/modules/cpuusage/cpuusage.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_notify.h:
 
-/var/mobile/fastfetch/src/modules/publicip/publicip.c:
+/var/mobile/fastfetch/src/modules/cpuusage/cpuusage.h:
 
 /var/mobile/fastfetch/src/detection/cpuusage/cpuusage.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uintptr_t.h:
 
+/var/mobile/fastfetch/src/common/size.h:
+
 /var/mobile/fastfetch/src/modules/de/option.h:
 
 /var/mobile/fastfetch/src/modules/mouse/mouse.h:
+
+/var/mobile/fastfetch/src/detection/terminalfont/terminalfont.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/constrained_ctypes.h:
 
 /var/mobile/fastfetch/src/modules/camera/option.h:
 
-/var/mobile/fastfetch/src/modules/diskio/option.h:
-
 /var/mobile/fastfetch/src/detection/media/media_nosupport.c:
 
-/var/mobile/fastfetch/src/modules/brightness/option.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/mach_debug_types.h:
 
 /var/mobile/fastfetch/src/modules/dns/option.h:
+
+/var/mobile/fastfetch/src/util/wcwidth.h:
 
 /var/mobile/fastfetch/src/fastfetch.h:
 
@@ -24876,37 +26461,35 @@ logo_builtin.h:
 
 /var/mobile/fastfetch/src/modules/cpucache/cpucache.h:
 
-/var/mobile/fastfetch/src/detection/gtk_qt/gtk_qt.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/dispatch.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
-fastfetch_config.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/signal.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_caddr_t.h:
+fastfetch_config.h:
 
 /var/mobile/fastfetch/src/modules/break/option.h:
 
 /var/mobile/fastfetch/src/util/stringUtils.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine.h:
-
 /var/mobile/fastfetch/src/common/thread.h:
 
-/var/mobile/fastfetch/src/detection/disk/disk.c:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/net/net_kev.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_intmax_t.h:
+/var/mobile/fastfetch/src/detection/disk/disk.c:
 
 /var/mobile/fastfetch/src/detection/physicalmemory/physicalmemory_nosupport.c:
 
 /var/mobile/fastfetch/src/detection/bios/bios_nosupport.c:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int8_t.h:
+/var/mobile/fastfetch/src/util/platform/FFPlatform_unix.c:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_zero.h:
+/var/mobile/fastfetch/src/modules/player/player.c:
 
 /var/mobile/fastfetch/src/modules/bootmgr/bootmgr.h:
 
-/var/mobile/fastfetch/src/common/jsonconfig.c:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mode_t.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_isset.h:
 
@@ -24914,9 +26497,17 @@ fastfetch_config.h:
 
 /var/mobile/fastfetch/src/modules/board/board.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h:
+
 /var/mobile/fastfetch/src/modules/btrfs/option.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_key_t.h:
+
 /var/mobile/fastfetch/src/modules/bluetoothradio/bluetoothradio.h:
+
+/var/mobile/fastfetch/src/detection/packages/packages_linux.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURLEnumerator.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/param.h:
 
@@ -24924,17 +26515,11 @@ fastfetch_config.h:
 
 /var/mobile/fastfetch/src/modules/bluetooth/bluetooth.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/syslimits.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/net/net_kev.h:
-
-/var/mobile/fastfetch/src/modules/netio/netio.c:
-
-/var/mobile/fastfetch/src/modules/battery/option.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/vm_info.h:
 
 /var/mobile/fastfetch/src/common/printing.h:
 
-/var/mobile/fastfetch/src/modules/terminal/terminal.c:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task_special_ports.h:
 
 /var/mobile/fastfetch/src/detection/version/version.h:
 
@@ -24944,43 +26529,31 @@ fastfetch_config.h:
 
 /var/mobile/fastfetch/src/modules/swap/swap.h:
 
-/var/mobile/fastfetch/src/modules/version/version.c:
-
 /var/mobile/fastfetch/src/common/parsing.h:
 
 /var/mobile/fastfetch/src/common/jsonconfig.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_o_dsync.h:
 
-/var/mobile/fastfetch/src/options/general.c:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/signal.h:
-
-/var/mobile/fastfetch/src/common/commandoption.h:
-
 /var/mobile/fastfetch/src/common/color.h:
-
-/var/mobile/fastfetch/src/common/commandoption.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/os/lock.h:
 
-/var/mobile/fastfetch/src/detection/icons/icons_nosupport.c:
-
 fastfetch_datatext.h:
 
-/var/mobile/fastfetch/src/common/temps.c:
+/var/mobile/fastfetch/src/modules/bluetooth/option.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wint_t.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_traps.h:
+
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_strings.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/data.h:
 
 /var/mobile/fastfetch/src/modules/colors/colors.h:
 
-/var/mobile/fastfetch/src/common/size.h:
-
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/dirent.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/inttypes.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/ctype.h:
 
@@ -24992,37 +26565,23 @@ fastfetch_datatext.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_char.h:
 
+/var/mobile/fastfetch/src/options/general.c:
+
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/assert.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int32_t.h:
+
 /var/mobile/fastfetch/src/detection/opencl/opencl.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/kern_return.h:
-
-/usr/lib/llvm-16/lib/clang/16.0.0/include/stdarg.h:
 
 /var/mobile/fastfetch/src/detection/camera/camera.h:
 
 /usr/lib/llvm-16/lib/clang/16.0.0/include/inttypes.h:
 
-/var/mobile/fastfetch/src/modules/icons/option.h:
-
-/var/mobile/fastfetch/src/modules/disk/option.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/types.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_sigset_t.h:
-
 /var/mobile/fastfetch/src/modules/display/display.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/stdint.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/signal.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/cdefs.h:
-
 /var/mobile/fastfetch/src/util/textModifier.h:
-
-/var/mobile/fastfetch/src/detection/memory/memory_nosupport.c:
 
 /var/mobile/fastfetch/src/modules/datetime/option.h:
 
@@ -25036,49 +26595,49 @@ fastfetch_datatext.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdlib.h:
 
+/var/mobile/fastfetch/src/modules/wifi/wifi.c:
+
 /var/mobile/fastfetch/src/detection/btrfs/btrfs_nosupport.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/port.h:
 
 /var/mobile/fastfetch/src/modules/bios/bios.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int8_t.h:
-
 /var/mobile/fastfetch/src/common/sysctl.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int.h:
 
+/var/mobile/fastfetch/src/common/io/io.h:
+
+/var/mobile/fastfetch/src/detection/displayserver/displayserver.h:
+
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timeval.h:
 
-/var/mobile/fastfetch/src/modules/physicalmemory/option.h:
-
-/var/mobile/fastfetch/src/modules/bluetooth/option.h:
+/var/mobile/fastfetch/src/modules/poweradapter/poweradapter.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
-
-/var/mobile/fastfetch/src/modules/vulkan/vulkan.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ssize_t.h:
 
 /var/mobile/fastfetch/src/modules/loadavg/loadavg.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_size_t.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_useconds_t.h:
+
+/var/mobile/fastfetch/src/util/apple/cf_helpers.h:
 
 /var/mobile/fastfetch/src/modules/version/version.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/bsm/audit.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_common.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/wait.h:
 
 /var/mobile/fastfetch/src/modules/physicaldisk/option.h:
 
 /var/mobile/fastfetch/src/modules/kernel/kernel.c:
 
 /usr/lib/llvm-16/lib/clang/16.0.0/include/stddef.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/semaphore.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rune_t.h:
 
@@ -25088,33 +26647,25 @@ fastfetch_datatext.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_off_t.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mode_t.h:
-
-/var/mobile/fastfetch/src/modules/break/break.h:
-
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint64_t.h:
-
-/var/mobile/fastfetch/src/modules/dns/dns.c:
 
 /var/mobile/fastfetch/src/detection/battery/battery_nosupport.c:
 
-/var/mobile/fastfetch/src/common/netif/netif.h:
-
-/var/mobile/fastfetch/src/modules/mouse/mouse.c:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/termios.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
 /var/mobile/fastfetch/src/common/init.c:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_key_t.h:
+/var/mobile/fastfetch/src/modules/wm/wm.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uid_t.h:
+
+/var/mobile/fastfetch/src/modules/poweradapter/option.h:
 
 /var/mobile/fastfetch/src/modules/host/option.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int32_t.h:
-
-/var/mobile/fastfetch/src/util/smbiosHelper.h:
 
 /var/mobile/fastfetch/src/detection/host/host.h:
 
@@ -25122,25 +26673,17 @@ fastfetch_datatext.h:
 
 /var/mobile/fastfetch/src/common/networking/networking_common.c:
 
-/var/mobile/fastfetch/src/detection/cpu/cpu.h:
-
-/var/mobile/fastfetch/src/modules/poweradapter/option.h:
-
-/var/mobile/fastfetch/src/detection/netio/netio.c:
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFXMLNode.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/Availability.h:
-
-/var/mobile/fastfetch/src/modules/zpool/zpool.c:
 
 /var/mobile/fastfetch/src/detection/battery/battery.h:
 
 /var/mobile/fastfetch/src/modules/locale/option.h:
 
-/var/mobile/fastfetch/src/modules/terminaltheme/option.h:
-
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int32_t.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_map.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
@@ -25148,83 +26691,75 @@ fastfetch_datatext.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityVersions.h:
 
-/var/mobile/fastfetch/src/modules/physicaldisk/physicaldisk.c:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/limits.h:
-
 /var/mobile/fastfetch/src/modules/custom/option.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_id_t.h:
 
-/var/mobile/fastfetch/src/util/base64.h:
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFFileDescriptor.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFError.h:
 
 /var/mobile/fastfetch/src/modules/battery/battery.h:
 
 /var/mobile/fastfetch/src/modules/diskio/diskio.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/_wctype.h:
+
 /var/mobile/fastfetch/src/detection/font/font.h:
 
 /var/mobile/fastfetch/src/detection/dns/dns_nosupport.c:
 
-/var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.h:
-
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/stdio.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint8_t.h:
 
 /var/mobile/fastfetch/src/modules/sound/option.h:
 
+/var/mobile/fastfetch/src/modules/diskio/diskio.c:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOMapTypes.h:
+
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_errno_t.h:
 
-/var/mobile/fastfetch/src/detection/host/host_nosupport.c:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_useconds_t.h:
-
-/usr/lib/llvm-16/lib/clang/16.0.0/include/__stddef_max_align_t.h:
-
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ct_rune_t.h:
+
+/var/mobile/fastfetch/src/modules/terminaltheme/terminaltheme.h:
 
 /var/mobile/fastfetch/src/common/duration.c:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
 
-/var/mobile/fastfetch/src/modules/weather/weather.c:
-
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_t.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_behavior.h:
 
 /var/mobile/fastfetch/src/modules/physicalmemory/physicalmemory.h:
 
-/var/mobile/fastfetch/src/options/logo.c:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uid_t.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_suseconds_t.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/acl.h:
 
 /var/mobile/fastfetch/src/modules/wifi/wifi.h:
 
 /var/mobile/fastfetch/src/detection/swap/swap_ios.c:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wchar_t.h:
+
+/var/mobile/fastfetch/src/common/percent.h:
+
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_symbol_aliasing.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/poll.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/os/workgroup_object.h:
+
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDictionary.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/appleapiopts.h:
 
 /var/mobile/fastfetch/src/modules/os/os.h:
 
-/var/mobile/fastfetch/src/detection/displayserver/displayserver.h:
-
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/_stdio.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_rsize_t.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/socket.h:
 
-/var/mobile/fastfetch/src/modules/poweradapter/poweradapter.c:
-
 /var/mobile/fastfetch/src/modules/camera/camera.c:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/glob.h:
+/var/mobile/fastfetch/src/modules/terminal/terminal.c:
 
 /var/mobile/fastfetch/src/modules/cursor/cursor.c:
 
@@ -25234,11 +26769,7 @@ fastfetch_datatext.h:
 
 /var/mobile/fastfetch/src/modules/uptime/option.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int16_t.h:
-
 /var/mobile/fastfetch/src/detection/netio/netio_nosupport.c:
-
-/var/mobile/fastfetch/src/modules/zpool/option.h:
 
 /var/mobile/fastfetch/src/detection/tpm/tpm_nosupport.c:
 
@@ -25250,35 +26781,27 @@ fastfetch_datatext.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
 
-/var/mobile/fastfetch/src/modules/uptime/uptime.c:
-
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/stdio.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/processor.h:
 
 /var/mobile/fastfetch/src/util/arrayUtils.h:
 
-/var/mobile/fastfetch/src/modules/terminalsize/terminalsize.c:
-
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/_locale.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/strings.h:
-
-/var/mobile/fastfetch/src/modules/processes/processes.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/attr.h:
 
 /var/mobile/fastfetch/src/modules/media/media.h:
+
+/var/mobile/fastfetch/src/detection/memory/memory_apple.c:
 
 /var/mobile/fastfetch/src/modules/cpu/cpu.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/signal.h:
 
-/var/mobile/fastfetch/src/detection/terminalfont/terminalfont.c:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/float.h:
 
-/var/mobile/fastfetch/src/common/font.c:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blksize_t.h:
-
-/var/mobile/fastfetch/src/modules/cpu/option.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/processor_info.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/errno.h:
 
@@ -25288,59 +26811,39 @@ fastfetch_datatext.h:
 
 /var/mobile/fastfetch/src/modules/bios/option.h:
 
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_mcontext.h:
+
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_stdio.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/malloc/_malloc.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/_structs.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/dispatch/block.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/limits.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/Block.h:
 
 /var/mobile/fastfetch/src/modules/de/de.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_ino_t.h:
 
-/var/mobile/fastfetch/src/modules/shell/shell.h:
-
 /var/mobile/fastfetch/src/util/FFcheckmacros.h:
-
-/var/mobile/fastfetch/src/detection/cursor/cursor.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/exception.h:
 
 /var/mobile/fastfetch/src/modules/btrfs/btrfs.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/math.h:
 
-/var/mobile/fastfetch/src/modules/colors/option.h:
-
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_blkcnt_t.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_s_ifmt.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_mcontext.h:
-
-/var/mobile/fastfetch/src/detection/gpu/gpu_nosupport.c:
 
 /var/mobile/fastfetch/src/detection/font/font_nosupport.c:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/net/if_var.h:
-
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uint16_t.h:
 
-/var/mobile/fastfetch/src/modules/theme/theme.c:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/_OSByteOrder.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/clock_types.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/gethostuuid.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/secure/_string.h:
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h:
 
 /var/mobile/fastfetch/src/modules/publicip/publicip.h:
-
-/var/mobile/fastfetch/src/common/percent.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/float.h:
 
 /var/mobile/fastfetch/src/common/duration.h:
 
@@ -25352,19 +26855,11 @@ fastfetch_datatext.h:
 
 /var/mobile/fastfetch/src/modules/wallpaper/option.h:
 
-/var/mobile/fastfetch/src/modules/diskio/diskio.c:
-
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_copy.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/resource.h:
 
-/var/mobile/fastfetch/src/modules/chassis/chassis.c:
-
 /var/mobile/fastfetch/src/modules/loadavg/option.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int64_t.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/netinet/tcp.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_in_addr_t.h:
 
@@ -25376,33 +26871,21 @@ fastfetch_datatext.h:
 
 /var/mobile/fastfetch/src/modules/de/de.c:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wchar_t.h:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_intptr_t.h:
-
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types/_uintmax_t.h:
 
-/var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.c:
-
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timespec.h:
-
-/var/mobile/fastfetch/src/modules/command/option.h:
-
-/var/mobile/fastfetch/src/common/time.h:
+/var/mobile/fastfetch/src/detection/vulkan/vulkan_ios.c:
 
 /usr/lib/llvm-16/lib/clang/16.0.0/include/float.h:
-
-/var/mobile/fastfetch/src/modules/terminaltheme/terminaltheme.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_types.h:
 
 /var/mobile/fastfetch/src/modules/terminalfont/terminalfont.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_limits.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_page_size.h:
 
-/var/mobile/fastfetch/src/common/io/io.h:
+/usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_policy.h:
 
-/usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uuid_t.h:
+/usr/share/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPreferences.h:
 
 /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_short.h:
 

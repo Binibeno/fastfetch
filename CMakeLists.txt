@@ -952,12 +952,12 @@ elseif(APPLE)
             src/detection/btrfs/btrfs_nosupport.c
             src/detection/camera/camera_nosupport.c
             src/detection/chassis/chassis_nosupport.c
-            src/detection/cpu/cpu_nosupport.c
+            src/detection/cpu/cpu_apple.c
             src/detection/cpucache/cpucache_nosupport.c
             src/detection/cpuusage/cpuusage_nosupport.c
             src/detection/cursor/cursor_nosupport.c
             src/detection/de/de_nosupport.c
-            src/detection/disk/disk_nosupport.c
+            src/detection/disk/disk_bsd.c
             src/detection/diskio/diskio_nosupport.c
             src/detection/displayserver/displayserver_nosupport.c
             src/detection/dns/dns_nosupport.c
@@ -975,11 +975,12 @@ elseif(APPLE)
             src/detection/locale/locale_nosupport.c
             src/detection/localip/localip_nosupport.c
             src/detection/media/media_nosupport.c
-            src/detection/memory/memory_nosupport.c
+            src/detection/memory/memory_apple.c
             src/detection/mouse/mouse_nosupport.c
             src/detection/netio/netio_nosupport.c
             src/detection/os/os_nosupport.c
-            src/detection/packages/packages_nosupport.c
+            src/detection/packages/packages_linux.c
+            src/detection/packages/packages_nix.c
             src/detection/physicaldisk/physicaldisk_nosupport.c
             src/detection/physicalmemory/physicalmemory_nosupport.c
             src/detection/opencl/opencl_ios.c

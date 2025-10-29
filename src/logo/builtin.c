@@ -335,7 +335,7 @@ static const FFlogo A[] = {
     },
     // Apple
     {
-        .names = {"Apple"},
+        .names = {"Apple", "iOS", "ios", "iPhone", "iPhone OS", "iphone_os"},
         .lines = FASTFETCH_DATATEXT_LOGO_MACOS,
         .colors = {
             FF_COLOR_FG_GREEN,
@@ -349,7 +349,7 @@ static const FFlogo A[] = {
     },
     // AppleSmall
     {
-        .names = {"Apple_small"},
+        .names = {"Apple_small", "iOS_small", "ios_small"},
         .type = FF_LOGO_LINE_TYPE_SMALL_BIT,
         .lines = FASTFETCH_DATATEXT_LOGO_MACOS_SMALL,
         .colors = {
@@ -2340,6 +2340,35 @@ static const FFlogo H[] = {
 };
 
 static const FFlogo I[] = {
+    // iOS
+    {
+        .names = {"iOS", "ios", "iPhone", "iPhone OS", "iphone_os"},
+        .lines = FASTFETCH_DATATEXT_LOGO_MACOS,
+        .colors = {
+            FF_COLOR_FG_GREEN,
+            FF_COLOR_FG_YELLOW,
+            FF_COLOR_FG_RED,
+            FF_COLOR_FG_MAGENTA,
+            FF_COLOR_FG_BLUE,
+        },
+        .colorKeys = FF_COLOR_FG_YELLOW,
+        .colorTitle = FF_COLOR_FG_GREEN,
+    },
+    // iOSSmall
+    {
+        .names = {"iOS_small", "ios_small"},
+        .type = FF_LOGO_LINE_TYPE_SMALL_BIT,
+        .lines = FASTFETCH_DATATEXT_LOGO_MACOS_SMALL,
+        .colors = {
+            FF_COLOR_FG_GREEN,
+            FF_COLOR_FG_YELLOW,
+            FF_COLOR_FG_RED,
+            FF_COLOR_FG_MAGENTA,
+            FF_COLOR_FG_BLUE,
+        },
+        .colorKeys = FF_COLOR_FG_YELLOW,
+        .colorTitle = FF_COLOR_FG_GREEN,
+    },
     // Iglunix
     {
         .names = {"Iglunix", "Iglu"},

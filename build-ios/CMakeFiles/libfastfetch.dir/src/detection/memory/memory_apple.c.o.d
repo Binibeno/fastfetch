@@ -1,6 +1,6 @@
-CMakeFiles/libfastfetch.dir/src/detection/host/host_nosupport.c.o: \
-  /var/mobile/fastfetch/src/detection/host/host_nosupport.c \
-  /var/mobile/fastfetch/src/detection/host/host.h \
+CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.o: \
+  /var/mobile/fastfetch/src/detection/memory/memory_apple.c \
+  /var/mobile/fastfetch/src/detection/memory/memory.h \
   /var/mobile/fastfetch/src/fastfetch.h \
   /var/mobile/fastfetch/build-ios/fastfetch_config.h \
   /usr/lib/llvm-16/lib/clang/16.0.0/include/stdint.h \
@@ -109,12 +109,99 @@ CMakeFiles/libfastfetch.dir/src/detection/host/host_nosupport.c.o: \
   /var/mobile/fastfetch/src/common/parsing.h \
   /var/mobile/fastfetch/src/common/option.h \
   /var/mobile/fastfetch/src/options/general.h \
-  /var/mobile/fastfetch/src/modules/host/option.h \
-  /var/mobile/fastfetch/src/util/stringUtils.h \
-  /usr/share/SDKs/iPhoneOS.sdk/usr/include/ctype.h \
-  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctype.h \
-  /usr/share/SDKs/iPhoneOS.sdk/usr/include/runetype.h \
-  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wint_t.h \
+  /var/mobile/fastfetch/src/modules/memory/option.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/std_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/boolean.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/boolean.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/boolean.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/kern_return.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/kern_return.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/kern_return.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/port.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/vm_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/vm_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mach_port_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uuid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/message.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_statistics.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/time_value.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_notify.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_special_ports.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/memory_object_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_prot.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_sync.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/exception_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/exception.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/exception.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_status.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/thread_status.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/thread_status.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/thread_state.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/thread_state.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/ipc_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_voucher_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/processor_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/processor_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/processor_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/policy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task_inspect.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task_policy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task_special_ports.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_policy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_special_ports.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/clock_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_attributes.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_inherit.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_purgable.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_behavior.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_region.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/vm_param.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/vm_param.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_page_size.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/kmod.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/dyld_kernel.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fsobj_id_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_interface.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/clock_priv.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/ndr.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/libkern/OSByteOrder.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/notify.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mig_errors.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mig.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mig_strncpy_zerofill_support.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_priv.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/mach_debug_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/vm_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/zone_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/page_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/hash_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach_debug/lockgroup_info.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/host_security.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/processor.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/processor_set.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/semaphore.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/sync_policy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/task.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_act.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/vm_map.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_port.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_init.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_traps.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_host.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/thread_switch.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/rpc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/rpc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/rpc.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/mach_error.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/error.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/sysctl.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/time.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_def.h \
@@ -163,16 +250,14 @@ CMakeFiles/libfastfetch.dir/src/detection/host/host_nosupport.c.o: \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_param.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/bsm/audit.h \
-  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/port.h \
-  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/boolean.h \
-  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/boolean.h \
-  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/boolean.h \
-  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/machine/vm_types.h \
-  /usr/share/SDKs/iPhoneOS.sdk/usr/include/mach/arm/vm_types.h \
-  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_mach_port_t.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/proc.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/select.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/queue.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/lock.h \
   /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/event.h \
-  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/vm.h
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/vm.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/unistd.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/unistd.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_posix_vdisable.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_seek_set.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/gethostuuid.h

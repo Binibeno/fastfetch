@@ -1181,29 +1181,29 @@ src/detection/cpu/cpu.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu.c.s
 .PHONY : src/detection/cpu/cpu.c.s
 
-src/detection/cpu/cpu_nosupport.o: src/detection/cpu/cpu_nosupport.c.o
-.PHONY : src/detection/cpu/cpu_nosupport.o
+src/detection/cpu/cpu_apple.o: src/detection/cpu/cpu_apple.c.o
+.PHONY : src/detection/cpu/cpu_apple.o
 
 # target to build an object file
-src/detection/cpu/cpu_nosupport.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.o
-.PHONY : src/detection/cpu/cpu_nosupport.c.o
+src/detection/cpu/cpu_apple.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.o
+.PHONY : src/detection/cpu/cpu_apple.c.o
 
-src/detection/cpu/cpu_nosupport.i: src/detection/cpu/cpu_nosupport.c.i
-.PHONY : src/detection/cpu/cpu_nosupport.i
+src/detection/cpu/cpu_apple.i: src/detection/cpu/cpu_apple.c.i
+.PHONY : src/detection/cpu/cpu_apple.i
 
 # target to preprocess a source file
-src/detection/cpu/cpu_nosupport.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.i
-.PHONY : src/detection/cpu/cpu_nosupport.c.i
+src/detection/cpu/cpu_apple.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.i
+.PHONY : src/detection/cpu/cpu_apple.c.i
 
-src/detection/cpu/cpu_nosupport.s: src/detection/cpu/cpu_nosupport.c.s
-.PHONY : src/detection/cpu/cpu_nosupport.s
+src/detection/cpu/cpu_apple.s: src/detection/cpu/cpu_apple.c.s
+.PHONY : src/detection/cpu/cpu_apple.s
 
 # target to generate assembly for a file
-src/detection/cpu/cpu_nosupport.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.s
-.PHONY : src/detection/cpu/cpu_nosupport.c.s
+src/detection/cpu/cpu_apple.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.s
+.PHONY : src/detection/cpu/cpu_apple.c.s
 
 src/detection/cpucache/cpucache_nosupport.o: src/detection/cpucache/cpucache_nosupport.c.o
 .PHONY : src/detection/cpucache/cpucache_nosupport.o
@@ -1349,29 +1349,29 @@ src/detection/disk/disk.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/disk/disk.c.s
 .PHONY : src/detection/disk/disk.c.s
 
-src/detection/disk/disk_nosupport.o: src/detection/disk/disk_nosupport.c.o
-.PHONY : src/detection/disk/disk_nosupport.o
+src/detection/disk/disk_bsd.o: src/detection/disk/disk_bsd.c.o
+.PHONY : src/detection/disk/disk_bsd.o
 
 # target to build an object file
-src/detection/disk/disk_nosupport.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.o
-.PHONY : src/detection/disk/disk_nosupport.c.o
+src/detection/disk/disk_bsd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.o
+.PHONY : src/detection/disk/disk_bsd.c.o
 
-src/detection/disk/disk_nosupport.i: src/detection/disk/disk_nosupport.c.i
-.PHONY : src/detection/disk/disk_nosupport.i
+src/detection/disk/disk_bsd.i: src/detection/disk/disk_bsd.c.i
+.PHONY : src/detection/disk/disk_bsd.i
 
 # target to preprocess a source file
-src/detection/disk/disk_nosupport.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.i
-.PHONY : src/detection/disk/disk_nosupport.c.i
+src/detection/disk/disk_bsd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.i
+.PHONY : src/detection/disk/disk_bsd.c.i
 
-src/detection/disk/disk_nosupport.s: src/detection/disk/disk_nosupport.c.s
-.PHONY : src/detection/disk/disk_nosupport.s
+src/detection/disk/disk_bsd.s: src/detection/disk/disk_bsd.c.s
+.PHONY : src/detection/disk/disk_bsd.s
 
 # target to generate assembly for a file
-src/detection/disk/disk_nosupport.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.s
-.PHONY : src/detection/disk/disk_nosupport.c.s
+src/detection/disk/disk_bsd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.s
+.PHONY : src/detection/disk/disk_bsd.c.s
 
 src/detection/diskio/diskio.o: src/detection/diskio/diskio.c.o
 .PHONY : src/detection/diskio/diskio.o
@@ -1925,29 +1925,29 @@ src/detection/media/media_nosupport.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/media/media_nosupport.c.s
 .PHONY : src/detection/media/media_nosupport.c.s
 
-src/detection/memory/memory_nosupport.o: src/detection/memory/memory_nosupport.c.o
-.PHONY : src/detection/memory/memory_nosupport.o
+src/detection/memory/memory_apple.o: src/detection/memory/memory_apple.c.o
+.PHONY : src/detection/memory/memory_apple.o
 
 # target to build an object file
-src/detection/memory/memory_nosupport.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.o
-.PHONY : src/detection/memory/memory_nosupport.c.o
+src/detection/memory/memory_apple.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.o
+.PHONY : src/detection/memory/memory_apple.c.o
 
-src/detection/memory/memory_nosupport.i: src/detection/memory/memory_nosupport.c.i
-.PHONY : src/detection/memory/memory_nosupport.i
+src/detection/memory/memory_apple.i: src/detection/memory/memory_apple.c.i
+.PHONY : src/detection/memory/memory_apple.i
 
 # target to preprocess a source file
-src/detection/memory/memory_nosupport.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.i
-.PHONY : src/detection/memory/memory_nosupport.c.i
+src/detection/memory/memory_apple.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.i
+.PHONY : src/detection/memory/memory_apple.c.i
 
-src/detection/memory/memory_nosupport.s: src/detection/memory/memory_nosupport.c.s
-.PHONY : src/detection/memory/memory_nosupport.s
+src/detection/memory/memory_apple.s: src/detection/memory/memory_apple.c.s
+.PHONY : src/detection/memory/memory_apple.s
 
 # target to generate assembly for a file
-src/detection/memory/memory_nosupport.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.s
-.PHONY : src/detection/memory/memory_nosupport.c.s
+src/detection/memory/memory_apple.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.s
+.PHONY : src/detection/memory/memory_apple.c.s
 
 src/detection/mouse/mouse_nosupport.o: src/detection/mouse/mouse_nosupport.c.o
 .PHONY : src/detection/mouse/mouse_nosupport.o
@@ -2141,29 +2141,53 @@ src/detection/packages/packages.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/packages/packages.c.s
 .PHONY : src/detection/packages/packages.c.s
 
-src/detection/packages/packages_nosupport.o: src/detection/packages/packages_nosupport.c.o
-.PHONY : src/detection/packages/packages_nosupport.o
+src/detection/packages/packages_linux.o: src/detection/packages/packages_linux.c.o
+.PHONY : src/detection/packages/packages_linux.o
 
 # target to build an object file
-src/detection/packages/packages_nosupport.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.o
-.PHONY : src/detection/packages/packages_nosupport.c.o
+src/detection/packages/packages_linux.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.o
+.PHONY : src/detection/packages/packages_linux.c.o
 
-src/detection/packages/packages_nosupport.i: src/detection/packages/packages_nosupport.c.i
-.PHONY : src/detection/packages/packages_nosupport.i
+src/detection/packages/packages_linux.i: src/detection/packages/packages_linux.c.i
+.PHONY : src/detection/packages/packages_linux.i
 
 # target to preprocess a source file
-src/detection/packages/packages_nosupport.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.i
-.PHONY : src/detection/packages/packages_nosupport.c.i
+src/detection/packages/packages_linux.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.i
+.PHONY : src/detection/packages/packages_linux.c.i
 
-src/detection/packages/packages_nosupport.s: src/detection/packages/packages_nosupport.c.s
-.PHONY : src/detection/packages/packages_nosupport.s
+src/detection/packages/packages_linux.s: src/detection/packages/packages_linux.c.s
+.PHONY : src/detection/packages/packages_linux.s
 
 # target to generate assembly for a file
-src/detection/packages/packages_nosupport.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.s
-.PHONY : src/detection/packages/packages_nosupport.c.s
+src/detection/packages/packages_linux.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.s
+.PHONY : src/detection/packages/packages_linux.c.s
+
+src/detection/packages/packages_nix.o: src/detection/packages/packages_nix.c.o
+.PHONY : src/detection/packages/packages_nix.o
+
+# target to build an object file
+src/detection/packages/packages_nix.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.o
+.PHONY : src/detection/packages/packages_nix.c.o
+
+src/detection/packages/packages_nix.i: src/detection/packages/packages_nix.c.i
+.PHONY : src/detection/packages/packages_nix.i
+
+# target to preprocess a source file
+src/detection/packages/packages_nix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.i
+.PHONY : src/detection/packages/packages_nix.c.i
+
+src/detection/packages/packages_nix.s: src/detection/packages/packages_nix.c.s
+.PHONY : src/detection/packages/packages_nix.s
+
+# target to generate assembly for a file
+src/detection/packages/packages_nix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libfastfetch.dir/build.make CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.s
+.PHONY : src/detection/packages/packages_nix.c.s
 
 src/detection/physicaldisk/physicaldisk_nosupport.o: src/detection/physicaldisk/physicaldisk_nosupport.c.o
 .PHONY : src/detection/physicaldisk/physicaldisk_nosupport.o
@@ -5134,9 +5158,9 @@ help:
 	@echo "... src/detection/cpu/cpu.o"
 	@echo "... src/detection/cpu/cpu.i"
 	@echo "... src/detection/cpu/cpu.s"
-	@echo "... src/detection/cpu/cpu_nosupport.o"
-	@echo "... src/detection/cpu/cpu_nosupport.i"
-	@echo "... src/detection/cpu/cpu_nosupport.s"
+	@echo "... src/detection/cpu/cpu_apple.o"
+	@echo "... src/detection/cpu/cpu_apple.i"
+	@echo "... src/detection/cpu/cpu_apple.s"
 	@echo "... src/detection/cpucache/cpucache_nosupport.o"
 	@echo "... src/detection/cpucache/cpucache_nosupport.i"
 	@echo "... src/detection/cpucache/cpucache_nosupport.s"
@@ -5155,9 +5179,9 @@ help:
 	@echo "... src/detection/disk/disk.o"
 	@echo "... src/detection/disk/disk.i"
 	@echo "... src/detection/disk/disk.s"
-	@echo "... src/detection/disk/disk_nosupport.o"
-	@echo "... src/detection/disk/disk_nosupport.i"
-	@echo "... src/detection/disk/disk_nosupport.s"
+	@echo "... src/detection/disk/disk_bsd.o"
+	@echo "... src/detection/disk/disk_bsd.i"
+	@echo "... src/detection/disk/disk_bsd.s"
 	@echo "... src/detection/diskio/diskio.o"
 	@echo "... src/detection/diskio/diskio.i"
 	@echo "... src/detection/diskio/diskio.s"
@@ -5227,9 +5251,9 @@ help:
 	@echo "... src/detection/media/media_nosupport.o"
 	@echo "... src/detection/media/media_nosupport.i"
 	@echo "... src/detection/media/media_nosupport.s"
-	@echo "... src/detection/memory/memory_nosupport.o"
-	@echo "... src/detection/memory/memory_nosupport.i"
-	@echo "... src/detection/memory/memory_nosupport.s"
+	@echo "... src/detection/memory/memory_apple.o"
+	@echo "... src/detection/memory/memory_apple.i"
+	@echo "... src/detection/memory/memory_apple.s"
 	@echo "... src/detection/mouse/mouse_nosupport.o"
 	@echo "... src/detection/mouse/mouse_nosupport.i"
 	@echo "... src/detection/mouse/mouse_nosupport.s"
@@ -5254,9 +5278,12 @@ help:
 	@echo "... src/detection/packages/packages.o"
 	@echo "... src/detection/packages/packages.i"
 	@echo "... src/detection/packages/packages.s"
-	@echo "... src/detection/packages/packages_nosupport.o"
-	@echo "... src/detection/packages/packages_nosupport.i"
-	@echo "... src/detection/packages/packages_nosupport.s"
+	@echo "... src/detection/packages/packages_linux.o"
+	@echo "... src/detection/packages/packages_linux.i"
+	@echo "... src/detection/packages/packages_linux.s"
+	@echo "... src/detection/packages/packages_nix.o"
+	@echo "... src/detection/packages/packages_nix.i"
+	@echo "... src/detection/packages/packages_nix.s"
 	@echo "... src/detection/physicaldisk/physicaldisk_nosupport.o"
 	@echo "... src/detection/physicaldisk/physicaldisk_nosupport.i"
 	@echo "... src/detection/physicaldisk/physicaldisk_nosupport.s"

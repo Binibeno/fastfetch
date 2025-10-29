@@ -110,4 +110,29 @@ CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.
   /var/mobile/fastfetch/src/common/option.h \
   /var/mobile/fastfetch/src/options/general.h \
   /var/mobile/fastfetch/src/modules/terminal/option.h \
-  /var/mobile/fastfetch/src/modules/shell/option.h
+  /var/mobile/fastfetch/src/modules/shell/option.h \
+  /var/mobile/fastfetch/src/util/stringUtils.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/ctype.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_ctype.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/runetype.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_wint_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/unistd.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/unistd.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_posix_vdisable.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_seek_set.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_gid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_useconds_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/select.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_def.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timespec.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_time_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_set.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_clr.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_isset.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_zero.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_fd_copy.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_select.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uuid_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/gethostuuid.h

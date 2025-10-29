@@ -2099,19 +2099,19 @@ CMakeFiles/libfastfetch.dir/src/detection/chassis/chassis_nosupport.c.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libfastfetch.dir/src/detection/chassis/chassis_nosupport.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/mobile/fastfetch/src/detection/chassis/chassis_nosupport.c -o CMakeFiles/libfastfetch.dir/src/detection/chassis/chassis_nosupport.c.s
 
-CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
-CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.o: /var/mobile/fastfetch/src/detection/cpu/cpu_nosupport.c
-CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.o -c /var/mobile/fastfetch/src/detection/cpu/cpu_nosupport.c
+CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.o: CMakeFiles/libfastfetch.dir/flags.make
+CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.o: /var/mobile/fastfetch/src/detection/cpu/cpu_apple.c
+CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.o -c /var/mobile/fastfetch/src/detection/cpu/cpu_apple.c
 
-CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/mobile/fastfetch/src/detection/cpu/cpu_nosupport.c > CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.i
+CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/mobile/fastfetch/src/detection/cpu/cpu_apple.c > CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.i
 
-CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/mobile/fastfetch/src/detection/cpu/cpu_nosupport.c -o CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.s
+CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/mobile/fastfetch/src/detection/cpu/cpu_apple.c -o CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.s
 
 CMakeFiles/libfastfetch.dir/src/detection/cpucache/cpucache_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/cpucache/cpucache_nosupport.c.o: /var/mobile/fastfetch/src/detection/cpucache/cpucache_nosupport.c
@@ -2169,19 +2169,19 @@ CMakeFiles/libfastfetch.dir/src/detection/de/de_nosupport.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libfastfetch.dir/src/detection/de/de_nosupport.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/mobile/fastfetch/src/detection/de/de_nosupport.c -o CMakeFiles/libfastfetch.dir/src/detection/de/de_nosupport.c.s
 
-CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
-CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.o: /var/mobile/fastfetch/src/detection/disk/disk_nosupport.c
-CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.o -c /var/mobile/fastfetch/src/detection/disk/disk_nosupport.c
+CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.o: CMakeFiles/libfastfetch.dir/flags.make
+CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.o: /var/mobile/fastfetch/src/detection/disk/disk_bsd.c
+CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.o -c /var/mobile/fastfetch/src/detection/disk/disk_bsd.c
 
-CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/mobile/fastfetch/src/detection/disk/disk_nosupport.c > CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.i
+CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/mobile/fastfetch/src/detection/disk/disk_bsd.c > CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.i
 
-CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/mobile/fastfetch/src/detection/disk/disk_nosupport.c -o CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.s
+CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/mobile/fastfetch/src/detection/disk/disk_bsd.c -o CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.s
 
 CMakeFiles/libfastfetch.dir/src/detection/diskio/diskio_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/diskio/diskio_nosupport.c.o: /var/mobile/fastfetch/src/detection/diskio/diskio_nosupport.c
@@ -2421,19 +2421,19 @@ CMakeFiles/libfastfetch.dir/src/detection/media/media_nosupport.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libfastfetch.dir/src/detection/media/media_nosupport.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/mobile/fastfetch/src/detection/media/media_nosupport.c -o CMakeFiles/libfastfetch.dir/src/detection/media/media_nosupport.c.s
 
-CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
-CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.o: /var/mobile/fastfetch/src/detection/memory/memory_nosupport.c
-CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.o -c /var/mobile/fastfetch/src/detection/memory/memory_nosupport.c
+CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.o: CMakeFiles/libfastfetch.dir/flags.make
+CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.o: /var/mobile/fastfetch/src/detection/memory/memory_apple.c
+CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.o -c /var/mobile/fastfetch/src/detection/memory/memory_apple.c
 
-CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/mobile/fastfetch/src/detection/memory/memory_nosupport.c > CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.i
+CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/mobile/fastfetch/src/detection/memory/memory_apple.c > CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.i
 
-CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/mobile/fastfetch/src/detection/memory/memory_nosupport.c -o CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.s
+CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/mobile/fastfetch/src/detection/memory/memory_apple.c -o CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.s
 
 CMakeFiles/libfastfetch.dir/src/detection/mouse/mouse_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/mouse/mouse_nosupport.c.o: /var/mobile/fastfetch/src/detection/mouse/mouse_nosupport.c
@@ -2477,24 +2477,38 @@ CMakeFiles/libfastfetch.dir/src/detection/os/os_nosupport.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libfastfetch.dir/src/detection/os/os_nosupport.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/mobile/fastfetch/src/detection/os/os_nosupport.c -o CMakeFiles/libfastfetch.dir/src/detection/os/os_nosupport.c.s
 
-CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
-CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.o: /var/mobile/fastfetch/src/detection/packages/packages_nosupport.c
-CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.o -c /var/mobile/fastfetch/src/detection/packages/packages_nosupport.c
+CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.o: CMakeFiles/libfastfetch.dir/flags.make
+CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.o: /var/mobile/fastfetch/src/detection/packages/packages_linux.c
+CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.o -c /var/mobile/fastfetch/src/detection/packages/packages_linux.c
 
-CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/mobile/fastfetch/src/detection/packages/packages_nosupport.c > CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.i
+CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/mobile/fastfetch/src/detection/packages/packages_linux.c > CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.i
 
-CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/mobile/fastfetch/src/detection/packages/packages_nosupport.c -o CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.s
+CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/mobile/fastfetch/src/detection/packages/packages_linux.c -o CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.s
+
+CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.o: CMakeFiles/libfastfetch.dir/flags.make
+CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.o: /var/mobile/fastfetch/src/detection/packages/packages_nix.c
+CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.o -c /var/mobile/fastfetch/src/detection/packages/packages_nix.c
+
+CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/mobile/fastfetch/src/detection/packages/packages_nix.c > CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.i
+
+CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/mobile/fastfetch/src/detection/packages/packages_nix.c -o CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.s
 
 CMakeFiles/libfastfetch.dir/src/detection/physicaldisk/physicaldisk_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/physicaldisk/physicaldisk_nosupport.c.o: /var/mobile/fastfetch/src/detection/physicaldisk/physicaldisk_nosupport.c
 CMakeFiles/libfastfetch.dir/src/detection/physicaldisk/physicaldisk_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/libfastfetch.dir/src/detection/physicaldisk/physicaldisk_nosupport.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/libfastfetch.dir/src/detection/physicaldisk/physicaldisk_nosupport.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/physicaldisk/physicaldisk_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/physicaldisk/physicaldisk_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/physicaldisk/physicaldisk_nosupport.c.o -c /var/mobile/fastfetch/src/detection/physicaldisk/physicaldisk_nosupport.c
 
 CMakeFiles/libfastfetch.dir/src/detection/physicaldisk/physicaldisk_nosupport.c.i: cmake_force
@@ -2508,7 +2522,7 @@ CMakeFiles/libfastfetch.dir/src/detection/physicaldisk/physicaldisk_nosupport.c.
 CMakeFiles/libfastfetch.dir/src/detection/physicalmemory/physicalmemory_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/physicalmemory/physicalmemory_nosupport.c.o: /var/mobile/fastfetch/src/detection/physicalmemory/physicalmemory_nosupport.c
 CMakeFiles/libfastfetch.dir/src/detection/physicalmemory/physicalmemory_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/libfastfetch.dir/src/detection/physicalmemory/physicalmemory_nosupport.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/libfastfetch.dir/src/detection/physicalmemory/physicalmemory_nosupport.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/physicalmemory/physicalmemory_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/physicalmemory/physicalmemory_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/physicalmemory/physicalmemory_nosupport.c.o -c /var/mobile/fastfetch/src/detection/physicalmemory/physicalmemory_nosupport.c
 
 CMakeFiles/libfastfetch.dir/src/detection/physicalmemory/physicalmemory_nosupport.c.i: cmake_force
@@ -2522,7 +2536,7 @@ CMakeFiles/libfastfetch.dir/src/detection/physicalmemory/physicalmemory_nosuppor
 CMakeFiles/libfastfetch.dir/src/detection/opencl/opencl_ios.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/opencl/opencl_ios.c.o: /var/mobile/fastfetch/src/detection/opencl/opencl_ios.c
 CMakeFiles/libfastfetch.dir/src/detection/opencl/opencl_ios.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/libfastfetch.dir/src/detection/opencl/opencl_ios.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/libfastfetch.dir/src/detection/opencl/opencl_ios.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/opencl/opencl_ios.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/opencl/opencl_ios.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/opencl/opencl_ios.c.o -c /var/mobile/fastfetch/src/detection/opencl/opencl_ios.c
 
 CMakeFiles/libfastfetch.dir/src/detection/opencl/opencl_ios.c.i: cmake_force
@@ -2536,7 +2550,7 @@ CMakeFiles/libfastfetch.dir/src/detection/opencl/opencl_ios.c.s: cmake_force
 CMakeFiles/libfastfetch.dir/src/detection/opengl/opengl_ios.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/opengl/opengl_ios.c.o: /var/mobile/fastfetch/src/detection/opengl/opengl_ios.c
 CMakeFiles/libfastfetch.dir/src/detection/opengl/opengl_ios.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/libfastfetch.dir/src/detection/opengl/opengl_ios.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/libfastfetch.dir/src/detection/opengl/opengl_ios.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/opengl/opengl_ios.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/opengl/opengl_ios.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/opengl/opengl_ios.c.o -c /var/mobile/fastfetch/src/detection/opengl/opengl_ios.c
 
 CMakeFiles/libfastfetch.dir/src/detection/opengl/opengl_ios.c.i: cmake_force
@@ -2550,7 +2564,7 @@ CMakeFiles/libfastfetch.dir/src/detection/opengl/opengl_ios.c.s: cmake_force
 CMakeFiles/libfastfetch.dir/src/detection/poweradapter/poweradapter_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/poweradapter/poweradapter_nosupport.c.o: /var/mobile/fastfetch/src/detection/poweradapter/poweradapter_nosupport.c
 CMakeFiles/libfastfetch.dir/src/detection/poweradapter/poweradapter_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/libfastfetch.dir/src/detection/poweradapter/poweradapter_nosupport.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/libfastfetch.dir/src/detection/poweradapter/poweradapter_nosupport.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/poweradapter/poweradapter_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/poweradapter/poweradapter_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/poweradapter/poweradapter_nosupport.c.o -c /var/mobile/fastfetch/src/detection/poweradapter/poweradapter_nosupport.c
 
 CMakeFiles/libfastfetch.dir/src/detection/poweradapter/poweradapter_nosupport.c.i: cmake_force
@@ -2564,7 +2578,7 @@ CMakeFiles/libfastfetch.dir/src/detection/poweradapter/poweradapter_nosupport.c.
 CMakeFiles/libfastfetch.dir/src/detection/processes/processes_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/processes/processes_nosupport.c.o: /var/mobile/fastfetch/src/detection/processes/processes_nosupport.c
 CMakeFiles/libfastfetch.dir/src/detection/processes/processes_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/libfastfetch.dir/src/detection/processes/processes_nosupport.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/libfastfetch.dir/src/detection/processes/processes_nosupport.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/processes/processes_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/processes/processes_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/processes/processes_nosupport.c.o -c /var/mobile/fastfetch/src/detection/processes/processes_nosupport.c
 
 CMakeFiles/libfastfetch.dir/src/detection/processes/processes_nosupport.c.i: cmake_force
@@ -2578,7 +2592,7 @@ CMakeFiles/libfastfetch.dir/src/detection/processes/processes_nosupport.c.s: cma
 CMakeFiles/libfastfetch.dir/src/detection/sound/sound_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/sound/sound_nosupport.c.o: /var/mobile/fastfetch/src/detection/sound/sound_nosupport.c
 CMakeFiles/libfastfetch.dir/src/detection/sound/sound_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/libfastfetch.dir/src/detection/sound/sound_nosupport.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/libfastfetch.dir/src/detection/sound/sound_nosupport.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/sound/sound_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/sound/sound_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/sound/sound_nosupport.c.o -c /var/mobile/fastfetch/src/detection/sound/sound_nosupport.c
 
 CMakeFiles/libfastfetch.dir/src/detection/sound/sound_nosupport.c.i: cmake_force
@@ -2592,7 +2606,7 @@ CMakeFiles/libfastfetch.dir/src/detection/sound/sound_nosupport.c.s: cmake_force
 CMakeFiles/libfastfetch.dir/src/detection/swap/swap_ios.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/swap/swap_ios.c.o: /var/mobile/fastfetch/src/detection/swap/swap_ios.c
 CMakeFiles/libfastfetch.dir/src/detection/swap/swap_ios.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/libfastfetch.dir/src/detection/swap/swap_ios.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/libfastfetch.dir/src/detection/swap/swap_ios.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/swap/swap_ios.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/swap/swap_ios.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/swap/swap_ios.c.o -c /var/mobile/fastfetch/src/detection/swap/swap_ios.c
 
 CMakeFiles/libfastfetch.dir/src/detection/swap/swap_ios.c.i: cmake_force
@@ -2606,7 +2620,7 @@ CMakeFiles/libfastfetch.dir/src/detection/swap/swap_ios.c.s: cmake_force
 CMakeFiles/libfastfetch.dir/src/detection/terminalfont/terminalfont_ios.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/terminalfont/terminalfont_ios.c.o: /var/mobile/fastfetch/src/detection/terminalfont/terminalfont_ios.c
 CMakeFiles/libfastfetch.dir/src/detection/terminalfont/terminalfont_ios.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/libfastfetch.dir/src/detection/terminalfont/terminalfont_ios.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/libfastfetch.dir/src/detection/terminalfont/terminalfont_ios.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/terminalfont/terminalfont_ios.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/terminalfont/terminalfont_ios.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/terminalfont/terminalfont_ios.c.o -c /var/mobile/fastfetch/src/detection/terminalfont/terminalfont_ios.c
 
 CMakeFiles/libfastfetch.dir/src/detection/terminalfont/terminalfont_ios.c.i: cmake_force
@@ -2620,7 +2634,7 @@ CMakeFiles/libfastfetch.dir/src/detection/terminalfont/terminalfont_ios.c.s: cma
 CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.c.o: /var/mobile/fastfetch/src/detection/terminalshell/terminalshell_nosupport.c
 CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.c.o -c /var/mobile/fastfetch/src/detection/terminalshell/terminalshell_nosupport.c
 
 CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.c.i: cmake_force
@@ -2634,7 +2648,7 @@ CMakeFiles/libfastfetch.dir/src/detection/terminalshell/terminalshell_nosupport.
 CMakeFiles/libfastfetch.dir/src/detection/terminalsize/terminalsize_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/terminalsize/terminalsize_nosupport.c.o: /var/mobile/fastfetch/src/detection/terminalsize/terminalsize_nosupport.c
 CMakeFiles/libfastfetch.dir/src/detection/terminalsize/terminalsize_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/libfastfetch.dir/src/detection/terminalsize/terminalsize_nosupport.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/libfastfetch.dir/src/detection/terminalsize/terminalsize_nosupport.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/terminalsize/terminalsize_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/terminalsize/terminalsize_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/terminalsize/terminalsize_nosupport.c.o -c /var/mobile/fastfetch/src/detection/terminalsize/terminalsize_nosupport.c
 
 CMakeFiles/libfastfetch.dir/src/detection/terminalsize/terminalsize_nosupport.c.i: cmake_force
@@ -2648,7 +2662,7 @@ CMakeFiles/libfastfetch.dir/src/detection/terminalsize/terminalsize_nosupport.c.
 CMakeFiles/libfastfetch.dir/src/detection/theme/theme_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/theme/theme_nosupport.c.o: /var/mobile/fastfetch/src/detection/theme/theme_nosupport.c
 CMakeFiles/libfastfetch.dir/src/detection/theme/theme_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/libfastfetch.dir/src/detection/theme/theme_nosupport.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/libfastfetch.dir/src/detection/theme/theme_nosupport.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/theme/theme_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/theme/theme_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/theme/theme_nosupport.c.o -c /var/mobile/fastfetch/src/detection/theme/theme_nosupport.c
 
 CMakeFiles/libfastfetch.dir/src/detection/theme/theme_nosupport.c.i: cmake_force
@@ -2662,7 +2676,7 @@ CMakeFiles/libfastfetch.dir/src/detection/theme/theme_nosupport.c.s: cmake_force
 CMakeFiles/libfastfetch.dir/src/detection/tpm/tpm_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/tpm/tpm_nosupport.c.o: /var/mobile/fastfetch/src/detection/tpm/tpm_nosupport.c
 CMakeFiles/libfastfetch.dir/src/detection/tpm/tpm_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/libfastfetch.dir/src/detection/tpm/tpm_nosupport.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/libfastfetch.dir/src/detection/tpm/tpm_nosupport.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/tpm/tpm_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/tpm/tpm_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/tpm/tpm_nosupport.c.o -c /var/mobile/fastfetch/src/detection/tpm/tpm_nosupport.c
 
 CMakeFiles/libfastfetch.dir/src/detection/tpm/tpm_nosupport.c.i: cmake_force
@@ -2676,7 +2690,7 @@ CMakeFiles/libfastfetch.dir/src/detection/tpm/tpm_nosupport.c.s: cmake_force
 CMakeFiles/libfastfetch.dir/src/detection/uptime/uptime_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/uptime/uptime_nosupport.c.o: /var/mobile/fastfetch/src/detection/uptime/uptime_nosupport.c
 CMakeFiles/libfastfetch.dir/src/detection/uptime/uptime_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/libfastfetch.dir/src/detection/uptime/uptime_nosupport.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/libfastfetch.dir/src/detection/uptime/uptime_nosupport.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/uptime/uptime_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/uptime/uptime_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/uptime/uptime_nosupport.c.o -c /var/mobile/fastfetch/src/detection/uptime/uptime_nosupport.c
 
 CMakeFiles/libfastfetch.dir/src/detection/uptime/uptime_nosupport.c.i: cmake_force
@@ -2690,7 +2704,7 @@ CMakeFiles/libfastfetch.dir/src/detection/uptime/uptime_nosupport.c.s: cmake_for
 CMakeFiles/libfastfetch.dir/src/detection/users/users_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/users/users_nosupport.c.o: /var/mobile/fastfetch/src/detection/users/users_nosupport.c
 CMakeFiles/libfastfetch.dir/src/detection/users/users_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/libfastfetch.dir/src/detection/users/users_nosupport.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/libfastfetch.dir/src/detection/users/users_nosupport.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/users/users_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/users/users_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/users/users_nosupport.c.o -c /var/mobile/fastfetch/src/detection/users/users_nosupport.c
 
 CMakeFiles/libfastfetch.dir/src/detection/users/users_nosupport.c.i: cmake_force
@@ -2704,7 +2718,7 @@ CMakeFiles/libfastfetch.dir/src/detection/users/users_nosupport.c.s: cmake_force
 CMakeFiles/libfastfetch.dir/src/detection/vulkan/vulkan_ios.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/vulkan/vulkan_ios.c.o: /var/mobile/fastfetch/src/detection/vulkan/vulkan_ios.c
 CMakeFiles/libfastfetch.dir/src/detection/vulkan/vulkan_ios.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/libfastfetch.dir/src/detection/vulkan/vulkan_ios.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/libfastfetch.dir/src/detection/vulkan/vulkan_ios.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/vulkan/vulkan_ios.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/vulkan/vulkan_ios.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/vulkan/vulkan_ios.c.o -c /var/mobile/fastfetch/src/detection/vulkan/vulkan_ios.c
 
 CMakeFiles/libfastfetch.dir/src/detection/vulkan/vulkan_ios.c.i: cmake_force
@@ -2718,7 +2732,7 @@ CMakeFiles/libfastfetch.dir/src/detection/vulkan/vulkan_ios.c.s: cmake_force
 CMakeFiles/libfastfetch.dir/src/detection/wallpaper/wallpaper_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/wallpaper/wallpaper_nosupport.c.o: /var/mobile/fastfetch/src/detection/wallpaper/wallpaper_nosupport.c
 CMakeFiles/libfastfetch.dir/src/detection/wallpaper/wallpaper_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/libfastfetch.dir/src/detection/wallpaper/wallpaper_nosupport.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/libfastfetch.dir/src/detection/wallpaper/wallpaper_nosupport.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/wallpaper/wallpaper_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/wallpaper/wallpaper_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/wallpaper/wallpaper_nosupport.c.o -c /var/mobile/fastfetch/src/detection/wallpaper/wallpaper_nosupport.c
 
 CMakeFiles/libfastfetch.dir/src/detection/wallpaper/wallpaper_nosupport.c.i: cmake_force
@@ -2732,7 +2746,7 @@ CMakeFiles/libfastfetch.dir/src/detection/wallpaper/wallpaper_nosupport.c.s: cma
 CMakeFiles/libfastfetch.dir/src/detection/wifi/wifi_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/wifi/wifi_nosupport.c.o: /var/mobile/fastfetch/src/detection/wifi/wifi_nosupport.c
 CMakeFiles/libfastfetch.dir/src/detection/wifi/wifi_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/libfastfetch.dir/src/detection/wifi/wifi_nosupport.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/libfastfetch.dir/src/detection/wifi/wifi_nosupport.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/wifi/wifi_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/wifi/wifi_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/wifi/wifi_nosupport.c.o -c /var/mobile/fastfetch/src/detection/wifi/wifi_nosupport.c
 
 CMakeFiles/libfastfetch.dir/src/detection/wifi/wifi_nosupport.c.i: cmake_force
@@ -2746,7 +2760,7 @@ CMakeFiles/libfastfetch.dir/src/detection/wifi/wifi_nosupport.c.s: cmake_force
 CMakeFiles/libfastfetch.dir/src/detection/wm/wm_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/wm/wm_nosupport.c.o: /var/mobile/fastfetch/src/detection/wm/wm_nosupport.c
 CMakeFiles/libfastfetch.dir/src/detection/wm/wm_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/libfastfetch.dir/src/detection/wm/wm_nosupport.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/libfastfetch.dir/src/detection/wm/wm_nosupport.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/wm/wm_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/wm/wm_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/wm/wm_nosupport.c.o -c /var/mobile/fastfetch/src/detection/wm/wm_nosupport.c
 
 CMakeFiles/libfastfetch.dir/src/detection/wm/wm_nosupport.c.i: cmake_force
@@ -2760,7 +2774,7 @@ CMakeFiles/libfastfetch.dir/src/detection/wm/wm_nosupport.c.s: cmake_force
 CMakeFiles/libfastfetch.dir/src/detection/wmtheme/wmtheme_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/wmtheme/wmtheme_nosupport.c.o: /var/mobile/fastfetch/src/detection/wmtheme/wmtheme_nosupport.c
 CMakeFiles/libfastfetch.dir/src/detection/wmtheme/wmtheme_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/libfastfetch.dir/src/detection/wmtheme/wmtheme_nosupport.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/libfastfetch.dir/src/detection/wmtheme/wmtheme_nosupport.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/wmtheme/wmtheme_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/wmtheme/wmtheme_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/wmtheme/wmtheme_nosupport.c.o -c /var/mobile/fastfetch/src/detection/wmtheme/wmtheme_nosupport.c
 
 CMakeFiles/libfastfetch.dir/src/detection/wmtheme/wmtheme_nosupport.c.i: cmake_force
@@ -2774,7 +2788,7 @@ CMakeFiles/libfastfetch.dir/src/detection/wmtheme/wmtheme_nosupport.c.s: cmake_f
 CMakeFiles/libfastfetch.dir/src/detection/zpool/zpool_nosupport.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/detection/zpool/zpool_nosupport.c.o: /var/mobile/fastfetch/src/detection/zpool/zpool_nosupport.c
 CMakeFiles/libfastfetch.dir/src/detection/zpool/zpool_nosupport.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/libfastfetch.dir/src/detection/zpool/zpool_nosupport.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/libfastfetch.dir/src/detection/zpool/zpool_nosupport.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/detection/zpool/zpool_nosupport.c.o -MF CMakeFiles/libfastfetch.dir/src/detection/zpool/zpool_nosupport.c.o.d -o CMakeFiles/libfastfetch.dir/src/detection/zpool/zpool_nosupport.c.o -c /var/mobile/fastfetch/src/detection/zpool/zpool_nosupport.c
 
 CMakeFiles/libfastfetch.dir/src/detection/zpool/zpool_nosupport.c.i: cmake_force
@@ -2788,7 +2802,7 @@ CMakeFiles/libfastfetch.dir/src/detection/zpool/zpool_nosupport.c.s: cmake_force
 CMakeFiles/libfastfetch.dir/src/util/platform/FFPlatform_unix.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/util/platform/FFPlatform_unix.c.o: /var/mobile/fastfetch/src/util/platform/FFPlatform_unix.c
 CMakeFiles/libfastfetch.dir/src/util/platform/FFPlatform_unix.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/libfastfetch.dir/src/util/platform/FFPlatform_unix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/libfastfetch.dir/src/util/platform/FFPlatform_unix.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/util/platform/FFPlatform_unix.c.o -MF CMakeFiles/libfastfetch.dir/src/util/platform/FFPlatform_unix.c.o.d -o CMakeFiles/libfastfetch.dir/src/util/platform/FFPlatform_unix.c.o -c /var/mobile/fastfetch/src/util/platform/FFPlatform_unix.c
 
 CMakeFiles/libfastfetch.dir/src/util/platform/FFPlatform_unix.c.i: cmake_force
@@ -2802,7 +2816,7 @@ CMakeFiles/libfastfetch.dir/src/util/platform/FFPlatform_unix.c.s: cmake_force
 CMakeFiles/libfastfetch.dir/src/util/binary_linux.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/util/binary_linux.c.o: /var/mobile/fastfetch/src/util/binary_linux.c
 CMakeFiles/libfastfetch.dir/src/util/binary_linux.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/libfastfetch.dir/src/util/binary_linux.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/libfastfetch.dir/src/util/binary_linux.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/util/binary_linux.c.o -MF CMakeFiles/libfastfetch.dir/src/util/binary_linux.c.o.d -o CMakeFiles/libfastfetch.dir/src/util/binary_linux.c.o -c /var/mobile/fastfetch/src/util/binary_linux.c
 
 CMakeFiles/libfastfetch.dir/src/util/binary_linux.c.i: cmake_force
@@ -2816,7 +2830,7 @@ CMakeFiles/libfastfetch.dir/src/util/binary_linux.c.s: cmake_force
 CMakeFiles/libfastfetch.dir/src/3rdparty/yyjson/yyjson.c.o: CMakeFiles/libfastfetch.dir/flags.make
 CMakeFiles/libfastfetch.dir/src/3rdparty/yyjson/yyjson.c.o: /var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.c
 CMakeFiles/libfastfetch.dir/src/3rdparty/yyjson/yyjson.c.o: CMakeFiles/libfastfetch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/libfastfetch.dir/src/3rdparty/yyjson/yyjson.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/var/mobile/fastfetch/build-ios/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/libfastfetch.dir/src/3rdparty/yyjson/yyjson.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libfastfetch.dir/src/3rdparty/yyjson/yyjson.c.o -MF CMakeFiles/libfastfetch.dir/src/3rdparty/yyjson/yyjson.c.o.d -o CMakeFiles/libfastfetch.dir/src/3rdparty/yyjson/yyjson.c.o -c /var/mobile/fastfetch/src/3rdparty/yyjson/yyjson.c
 
 CMakeFiles/libfastfetch.dir/src/3rdparty/yyjson/yyjson.c.i: cmake_force
@@ -2972,12 +2986,12 @@ libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/brightness/brightness_no
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/btrfs/btrfs_nosupport.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/camera/camera_nosupport.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/chassis/chassis_nosupport.c.o
-libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_nosupport.c.o
+libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/cpu/cpu_apple.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/cpucache/cpucache_nosupport.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/cpuusage/cpuusage_nosupport.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/cursor/cursor_nosupport.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/de/de_nosupport.c.o
-libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/disk/disk_nosupport.c.o
+libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/disk/disk_bsd.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/diskio/diskio_nosupport.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/displayserver/displayserver_nosupport.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/dns/dns_nosupport.c.o
@@ -2995,11 +3009,12 @@ libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/loadavg/loadavg_nosuppor
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/locale/locale_nosupport.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/localip/localip_nosupport.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/media/media_nosupport.c.o
-libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/memory/memory_nosupport.c.o
+libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/memory/memory_apple.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/mouse/mouse_nosupport.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/netio/netio_nosupport.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/os/os_nosupport.c.o
-libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nosupport.c.o
+libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/packages/packages_linux.c.o
+libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/packages/packages_nix.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/physicaldisk/physicaldisk_nosupport.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/physicalmemory/physicalmemory_nosupport.c.o
 libfastfetch: CMakeFiles/libfastfetch.dir/src/detection/opencl/opencl_ios.c.o
