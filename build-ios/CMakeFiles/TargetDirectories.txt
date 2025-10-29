@@ -1,0 +1,11 @@
+/var/mobile/fastfetch/build-ios/CMakeFiles/libfastfetch.dir
+/var/mobile/fastfetch/build-ios/CMakeFiles/fastfetch.dir
+/var/mobile/fastfetch/build-ios/CMakeFiles/flashfetch.dir
+/var/mobile/fastfetch/build-ios/CMakeFiles/package.dir
+/var/mobile/fastfetch/build-ios/CMakeFiles/package_source.dir
+/var/mobile/fastfetch/build-ios/CMakeFiles/edit_cache.dir
+/var/mobile/fastfetch/build-ios/CMakeFiles/rebuild_cache.dir
+/var/mobile/fastfetch/build-ios/CMakeFiles/list_install_components.dir
+/var/mobile/fastfetch/build-ios/CMakeFiles/install.dir
+/var/mobile/fastfetch/build-ios/CMakeFiles/install/local.dir
+/var/mobile/fastfetch/build-ios/CMakeFiles/install/strip.dir

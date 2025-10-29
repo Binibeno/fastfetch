@@ -1,0 +1,4 @@
+/var/mobile/fastfetch/build-ios/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir
+/var/mobile/fastfetch/build-ios/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir
+/var/mobile/fastfetch/build-ios/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/edit_cache.dir
+/var/mobile/fastfetch/build-ios/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/rebuild_cache.dir

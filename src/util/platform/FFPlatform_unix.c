@@ -11,7 +11,10 @@
 #include <paths.h>
 
 #ifdef __APPLE__
-    #include <libproc.h>
+    #include <TargetConditionals.h>
+    #if !TARGET_OS_IPHONE
+        #include <libproc.h>
+    #endif
     #include <sys/sysctl.h>
 #elif defined(__FreeBSD__) || defined(__OpenBSD__) || defined(__NetBSD__)
     #include <sys/sysctl.h>
@@ -28,7 +31,11 @@ static void getExePath(FFPlatform* platform)
         if (exePathLen >= 0)
             exePath[exePathLen] = '\0';
     #elif defined(__APPLE__)
-        int exePathLen = proc_pidpath((int) getpid(), exePath, sizeof(exePath));
+        #if TARGET_OS_IPHONE
+            size_t exePathLen = 0;
+        #else
+            int exePathLen = proc_pidpath((int) getpid(), exePath, sizeof(exePath));
+        #endif
     #elif defined(__FreeBSD__) || defined(__NetBSD__)
         size_t exePathLen = sizeof(exePath);
         if(sysctl(

@@ -20,6 +20,14 @@ elseif(CMAKE_SYSTEM_PROCESSOR STREQUAL "arm64")
 endif()
 message(STATUS "Build for system processor: ${CMAKE_SYSTEM_PROCESSOR}")
 
+set(FF_IOS FALSE)
+if(APPLE)
+    if(CMAKE_SYSTEM_PROCESSOR MATCHES "^(iphone|ipad|ipod)")
+        set(FF_IOS TRUE)
+        message(STATUS "Detected iOS environment")
+    endif()
+endif()
+
 ###################
 # Target Platform #
 ###################
@@ -123,6 +131,12 @@ foreach(package_manager ${PACKAGE_MANAGERS})
         option(PACKAGES_DISABLE_${package_manager} "Disable ${package_manager} package manager detection by default" OFF)
     endif()
 endforeach()
+
+if(FF_IOS)
+    foreach(_ff_ios_disabled_lib IN ITEMS VULKAN OPENCL EGL GLX WORDEXP)
+        set(ENABLE_${_ff_ios_disabled_lib} OFF CACHE BOOL "Disabled on iOS" FORCE)
+    endforeach()
+endif()
 
 if (LINUX)
     set(CUSTOM_PCI_IDS_PATH "" CACHE STRING "Custom path to file pci.ids, defaults to `/usr/share/hwdata/pci.ids`")
@@ -921,77 +935,156 @@ elseif(OpenBSD)
         src/util/smbiosHelper.c
     )
 elseif(APPLE)
-    list(APPEND LIBFASTFETCH_SRC
-        src/common/io/io_unix.c
-        src/common/netif/netif_apple.c
-        src/common/networking/networking_linux.c
-        src/common/processing_linux.c
-        src/common/sysctl.c
-        src/detection/battery/battery_apple.c
-        src/detection/bios/bios_apple.c
-        src/detection/bluetooth/bluetooth_apple.m
-        src/detection/bluetoothradio/bluetoothradio_apple.m
-        src/detection/board/board_apple.c
-        src/detection/bootmgr/bootmgr_apple.c
-        src/detection/brightness/brightness_apple.c
-        src/detection/btrfs/btrfs_nosupport.c
-        src/detection/chassis/chassis_apple.c
-        src/detection/cpu/cpu_apple.c
-        src/detection/cpucache/cpucache_apple.c
-        src/detection/cpuusage/cpuusage_apple.c
-        src/detection/cursor/cursor_apple.m
-        src/detection/disk/disk_bsd.c
-        src/detection/dns/dns_apple.c
-        src/detection/physicaldisk/physicaldisk_apple.c
-        src/detection/physicalmemory/physicalmemory_apple.m
-        src/detection/diskio/diskio_apple.c
-        src/detection/displayserver/displayserver_apple.c
-        src/detection/font/font_apple.m
-        src/detection/gpu/gpu_apple.c
-        src/detection/gpu/gpu_apple.m
-        src/detection/host/host_apple.c
-        src/detection/host/host_mac.c
-        src/detection/icons/icons_nosupport.c
-        src/detection/initsystem/initsystem_linux.c
-        src/detection/keyboard/keyboard_apple.c
-        src/detection/lm/lm_nosupport.c
-        src/detection/loadavg/loadavg_bsd.c
-        src/detection/libc/libc_apple.c
-        src/detection/locale/locale_linux.c
-        src/detection/localip/localip_linux.c
-        src/detection/gamepad/gamepad_apple.c
-        src/detection/media/media_apple.m
-        src/detection/memory/memory_apple.c
-        src/detection/mouse/mouse_apple.c
-        src/detection/netio/netio_apple.c
-        src/detection/opengl/opengl_apple.c
-        src/detection/os/os_apple.m
-        src/detection/packages/packages_apple.c
-        src/detection/packages/packages_nix.c
-        src/detection/poweradapter/poweradapter_apple.c
-        src/detection/processes/processes_bsd.c
-        src/detection/sound/sound_apple.c
-        src/detection/swap/swap_apple.c
-        src/detection/terminalfont/terminalfont_apple.m
-        src/detection/terminalshell/terminalshell_linux.c
-        src/detection/terminalsize/terminalsize_linux.c
-        src/detection/theme/theme_apple.c
-        src/detection/tpm/tpm_apple.c
-        src/detection/uptime/uptime_bsd.c
-        src/detection/users/users_linux.c
-        src/detection/wallpaper/wallpaper_apple.m
-        src/detection/wifi/wifi_apple.m
-        src/detection/wm/wm_apple.m
-        src/detection/de/de_nosupport.c
-        src/detection/wmtheme/wmtheme_apple.m
-        src/detection/camera/camera_apple.m
-        src/detection/zpool/zpool_nosupport.c
-        src/util/apple/cf_helpers.c
-        src/util/apple/osascript.m
-        src/util/apple/smc_temps.c
-        src/util/platform/FFPlatform_unix.c
-        src/util/binary_apple.c
-    )
+    if(FF_IOS)
+        list(APPEND LIBFASTFETCH_SRC
+            src/common/io/io_unix.c
+            src/common/netif/netif_ios.c
+            src/common/networking/networking_linux.c
+            src/common/processing_linux.c
+            src/common/sysctl.c
+            src/detection/battery/battery_nosupport.c
+            src/detection/bios/bios_nosupport.c
+            src/detection/bluetooth/bluetooth_nosupport.c
+            src/detection/bluetoothradio/bluetoothradio_nosupport.c
+            src/detection/board/board_nosupport.c
+            src/detection/bootmgr/bootmgr_nosupport.c
+            src/detection/brightness/brightness_nosupport.c
+            src/detection/btrfs/btrfs_nosupport.c
+            src/detection/camera/camera_nosupport.c
+            src/detection/chassis/chassis_nosupport.c
+            src/detection/cpu/cpu_nosupport.c
+            src/detection/cpucache/cpucache_nosupport.c
+            src/detection/cpuusage/cpuusage_nosupport.c
+            src/detection/cursor/cursor_nosupport.c
+            src/detection/de/de_nosupport.c
+            src/detection/disk/disk_nosupport.c
+            src/detection/diskio/diskio_nosupport.c
+            src/detection/displayserver/displayserver_nosupport.c
+            src/detection/dns/dns_nosupport.c
+            src/detection/font/font_nosupport.c
+            src/detection/gamepad/gamepad_nosupport.c
+            src/detection/gpu/gpu_nosupport.c
+            src/detection/gtk_qt/gtk_nosupport.c
+            src/detection/host/host_nosupport.c
+            src/detection/icons/icons_nosupport.c
+            src/detection/initsystem/initsystem_nosupport.c
+            src/detection/keyboard/keyboard_nosupport.c
+            src/detection/libc/libc_nosupport.c
+            src/detection/lm/lm_nosupport.c
+            src/detection/loadavg/loadavg_nosupport.c
+            src/detection/locale/locale_nosupport.c
+            src/detection/localip/localip_nosupport.c
+            src/detection/media/media_nosupport.c
+            src/detection/memory/memory_nosupport.c
+            src/detection/mouse/mouse_nosupport.c
+            src/detection/netio/netio_nosupport.c
+            src/detection/os/os_nosupport.c
+            src/detection/packages/packages_nosupport.c
+            src/detection/physicaldisk/physicaldisk_nosupport.c
+            src/detection/physicalmemory/physicalmemory_nosupport.c
+            src/detection/opencl/opencl_ios.c
+            src/detection/opengl/opengl_ios.c
+            src/detection/poweradapter/poweradapter_nosupport.c
+            src/detection/processes/processes_nosupport.c
+            src/detection/publicip/publicip.c
+            src/detection/sound/sound_nosupport.c
+            src/detection/swap/swap_ios.c
+            src/detection/terminalfont/terminalfont_ios.c
+            src/detection/terminalshell/terminalshell_nosupport.c
+            src/detection/terminalsize/terminalsize_nosupport.c
+            src/detection/theme/theme_nosupport.c
+            src/detection/tpm/tpm_nosupport.c
+            src/detection/uptime/uptime_nosupport.c
+            src/detection/users/users_nosupport.c
+            src/detection/vulkan/vulkan_ios.c
+            src/detection/wallpaper/wallpaper_nosupport.c
+            src/detection/weather/weather.c
+            src/detection/wifi/wifi_nosupport.c
+            src/detection/wm/wm_nosupport.c
+            src/detection/wmtheme/wmtheme_nosupport.c
+            src/detection/zpool/zpool_nosupport.c
+            src/util/platform/FFPlatform_unix.c
+            src/util/binary_linux.c
+        )
+        list(REMOVE_ITEM LIBFASTFETCH_SRC
+            src/detection/opencl/opencl.c
+            src/detection/opengl/opengl_shared.c
+            src/detection/vulkan/vulkan.c
+            src/util/kmod.c
+        )
+    else()
+        list(APPEND LIBFASTFETCH_SRC
+            src/common/io/io_unix.c
+            src/common/netif/netif_apple.c
+            src/common/networking/networking_linux.c
+            src/common/processing_linux.c
+            src/common/sysctl.c
+            src/detection/battery/battery_apple.c
+            src/detection/bios/bios_apple.c
+            src/detection/bluetooth/bluetooth_apple.m
+            src/detection/bluetoothradio/bluetoothradio_apple.m
+            src/detection/board/board_apple.c
+            src/detection/bootmgr/bootmgr_apple.c
+            src/detection/brightness/brightness_apple.c
+            src/detection/btrfs/btrfs_nosupport.c
+            src/detection/chassis/chassis_apple.c
+            src/detection/cpu/cpu_apple.c
+            src/detection/cpucache/cpucache_apple.c
+            src/detection/cpuusage/cpuusage_apple.c
+            src/detection/cursor/cursor_apple.m
+            src/detection/disk/disk_bsd.c
+            src/detection/dns/dns_apple.c
+            src/detection/physicaldisk/physicaldisk_apple.c
+            src/detection/physicalmemory/physicalmemory_apple.m
+            src/detection/diskio/diskio_apple.c
+            src/detection/displayserver/displayserver_apple.c
+            src/detection/font/font_apple.m
+            src/detection/gpu/gpu_apple.c
+            src/detection/gpu/gpu_apple.m
+            src/detection/host/host_apple.c
+            src/detection/host/host_mac.c
+            src/detection/icons/icons_nosupport.c
+            src/detection/initsystem/initsystem_linux.c
+            src/detection/keyboard/keyboard_apple.c
+            src/detection/lm/lm_nosupport.c
+            src/detection/loadavg/loadavg_bsd.c
+            src/detection/libc/libc_apple.c
+            src/detection/locale/locale_linux.c
+            src/detection/localip/localip_linux.c
+            src/detection/gamepad/gamepad_apple.c
+            src/detection/media/media_apple.m
+            src/detection/memory/memory_apple.c
+            src/detection/mouse/mouse_apple.c
+            src/detection/netio/netio_apple.c
+            src/detection/opengl/opengl_apple.c
+            src/detection/os/os_apple.m
+            src/detection/packages/packages_apple.c
+            src/detection/packages/packages_nix.c
+            src/detection/poweradapter/poweradapter_apple.c
+            src/detection/processes/processes_bsd.c
+            src/detection/sound/sound_apple.c
+            src/detection/swap/swap_apple.c
+            src/detection/terminalfont/terminalfont_apple.m
+            src/detection/terminalshell/terminalshell_linux.c
+            src/detection/terminalsize/terminalsize_linux.c
+            src/detection/theme/theme_apple.c
+            src/detection/tpm/tpm_apple.c
+            src/detection/uptime/uptime_bsd.c
+            src/detection/users/users_linux.c
+            src/detection/wallpaper/wallpaper_apple.m
+            src/detection/wifi/wifi_apple.m
+            src/detection/wm/wm_apple.m
+            src/detection/de/de_nosupport.c
+            src/detection/wmtheme/wmtheme_apple.m
+            src/detection/camera/camera_apple.m
+            src/detection/zpool/zpool_nosupport.c
+            src/util/apple/cf_helpers.c
+            src/util/apple/osascript.m
+            src/util/apple/smc_temps.c
+            src/util/platform/FFPlatform_unix.c
+            src/util/binary_apple.c
+        )
+    endif()
 elseif(WIN32)
     list(APPEND LIBFASTFETCH_SRC
         src/common/io/io_windows.c
@@ -1656,26 +1749,39 @@ if(LINUX)
         endif()
     endif()
 elseif(APPLE)
-    target_link_libraries(libfastfetch
-        PRIVATE "-framework AVFoundation"
-        PRIVATE "-framework Cocoa"
-        PRIVATE "-framework CoreFoundation"
-        PRIVATE "-framework CoreAudio"
-        PRIVATE "-framework CoreMedia"
-        PRIVATE "-framework CoreVideo"
-        PRIVATE "-framework CoreWLAN"
-        PRIVATE "-framework IOBluetooth"
-        PRIVATE "-framework IOKit"
-        PRIVATE "-framework Metal"
-        PRIVATE "-framework OpenGL"
-        PRIVATE "-framework OpenCL"
-        PRIVATE "-framework SystemConfiguration"
-        PRIVATE "-weak_framework CoreDisplay"
+    if(FF_IOS)
+        target_link_libraries(libfastfetch
+            PRIVATE "-framework AVFoundation"
+            PRIVATE "-framework CoreFoundation"
+            PRIVATE "-framework CoreAudio"
+            PRIVATE "-framework CoreMedia"
+            PRIVATE "-framework CoreVideo"
+            PRIVATE "-framework IOKit"
+            PRIVATE "-framework Metal"
+            PRIVATE "-framework SystemConfiguration"
+        )
+    else()
+        target_link_libraries(libfastfetch
+            PRIVATE "-framework AVFoundation"
+            PRIVATE "-framework Cocoa"
+            PRIVATE "-framework CoreFoundation"
+            PRIVATE "-framework CoreAudio"
+            PRIVATE "-framework CoreMedia"
+            PRIVATE "-framework CoreVideo"
+            PRIVATE "-framework CoreWLAN"
+            PRIVATE "-framework IOBluetooth"
+            PRIVATE "-framework IOKit"
+            PRIVATE "-framework Metal"
+            PRIVATE "-framework OpenGL"
+            PRIVATE "-framework OpenCL"
+            PRIVATE "-framework SystemConfiguration"
+            PRIVATE "-weak_framework CoreDisplay"
 
-        PRIVATE "-F /System/Library/PrivateFrameworks"
-        PRIVATE "-weak_framework DisplayServices"
-        PRIVATE "-weak_framework MediaRemote"
-    )
+            PRIVATE "-F /System/Library/PrivateFrameworks"
+            PRIVATE "-weak_framework DisplayServices"
+            PRIVATE "-weak_framework MediaRemote"
+        )
+    endif()
 elseif(WIN32)
     target_link_libraries(libfastfetch
         PRIVATE "dwmapi"

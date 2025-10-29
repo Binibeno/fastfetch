@@ -12,16 +12,20 @@
 #include <errno.h>
 #include <sys/wait.h>
 
+#if defined(__APPLE__)
+#include <TargetConditionals.h>
+#endif
+
 #if !(__ANDROID__ || __OpenBSD__)
     #include <spawn.h>
 #endif
 
-#if defined(__FreeBSD__) || defined(__APPLE__)
+#if defined(__FreeBSD__) || (defined(__APPLE__) && (!defined(TARGET_OS_IPHONE) || !TARGET_OS_IPHONE))
     #include <sys/types.h>
     #include <sys/user.h>
     #include <sys/sysctl.h>
 #endif
-#if defined(__APPLE__)
+#if defined(__APPLE__) && (!defined(TARGET_OS_IPHONE) || !TARGET_OS_IPHONE)
     #include <libproc.h>
 #elif defined(__sun)
     #include <procfs.h>
@@ -286,7 +290,7 @@ void ffProcessGetInfoLinux(pid_t pid, FFstrbuf* processName, FFstrbuf* exe, cons
         }
     }
 
-    #elif defined(__APPLE__)
+    #elif defined(__APPLE__) && (!defined(TARGET_OS_IPHONE) || !TARGET_OS_IPHONE)
 
     size_t len = 0;
     int mibs[] = { CTL_KERN, KERN_PROCARGS2, pid };
@@ -520,7 +524,7 @@ const char* ffProcessGetBasicInfoLinux(pid_t pid, FFstrbuf* name, pid_t* ppid, i
     }
     #endif
 
-    #elif defined(__APPLE__)
+    #elif defined(__APPLE__) && (!defined(TARGET_OS_IPHONE) || !TARGET_OS_IPHONE)
 
     struct kinfo_proc proc;
     size_t size = sizeof(proc);

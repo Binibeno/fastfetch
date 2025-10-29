@@ -6,6 +6,10 @@
 
 #include <unistd.h>
 
+#if defined(__APPLE__)
+#include <TargetConditionals.h>
+#endif
+
 const char* ffOptionsParseGeneralJsonConfig(FFOptionsGeneral* options, yyjson_val* root)
 {
     yyjson_val* object = yyjson_obj_get(root, "general");
@@ -24,8 +28,12 @@ const char* ffOptionsParseGeneralJsonConfig(FFOptionsGeneral* options, yyjson_va
         {
             if (!yyjson_is_str(val))
                 return "general.preRun must be a string";
+    #if defined(__APPLE__) && defined(TARGET_OS_IPHONE) && TARGET_OS_IPHONE
+            return "general.preRun is not supported on iOS";
+    #else
             if (system(unsafe_yyjson_get_str(val)) < 0)
                 return "Failed to execute preRun command";
+    #endif
         }
         else if (unsafe_yyjson_equals_str(key, "detectVersion"))
             options->detectVersion = yyjson_get_bool(val);

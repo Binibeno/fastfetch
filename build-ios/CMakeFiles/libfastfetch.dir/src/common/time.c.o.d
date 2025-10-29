@@ -1,0 +1,31 @@
+CMakeFiles/libfastfetch.dir/src/common/time.c.o: \
+  /var/mobile/fastfetch/src/common/time.c \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/time.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/cdefs.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_symbol_aliasing.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_posix_availability.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/Availability.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityVersions.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/AvailabilityInternal.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_clock_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/machine/types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/arm/types.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int16_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int32_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_int64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_intptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_null.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_size_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_time_t.h \
+  /usr/share/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_timespec.h
